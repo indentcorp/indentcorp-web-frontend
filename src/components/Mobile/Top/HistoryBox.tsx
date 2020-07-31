@@ -41,7 +41,7 @@ const TextBox = styled.div`
   font-weight: 400;
   color: #454545;
   padding-left: 20px;
-  padding-top: 59px;
+  padding-top: 56px;
 `;
 
 const LinkBox = styled.a`
@@ -61,7 +61,7 @@ const DetailTitle = styled.span`
   font-size: 12px;
   font-weight: 500;
   color: #8e8e8e;
-  padding-top: 30px;
+  padding-top: 23px;
   padding-bottom: 10px;
 `;
 

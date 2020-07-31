@@ -5,7 +5,7 @@ const Container = styled.div`
   font-family: 'IBM Plex Mono', monospace;
   display: flex;
   flex-direction: column;
-  padding-bottom: 42px;
+  padding-bottom: px;
   background-color: #faf8f8;
   margin-left: 10px;
 `;
@@ -127,14 +127,25 @@ const Frame = () => {
           <NameBox>{item.id}</NameBox>
           <PositionBox>{item.position}</PositionBox>
           {item.blogLink ? (
-            <LinkBox href={item.blogLink} style={{ paddingRight: '10px' }}>
+            <LinkBox
+              target='_blank'
+              rel='noopener noreferrer'
+              href={item.blogLink}
+              style={{ paddingRight: '10px' }}
+            >
               Blog
             </LinkBox>
           ) : (
             <LinkBox />
           )}
           {item.ghLink ? (
-            <LinkBox href={item.ghLink}>Github</LinkBox>
+            <LinkBox
+              target='_blank'
+              rel='noopener noreferrer'
+              href={item.ghLink}
+            >
+              Github
+            </LinkBox>
           ) : (
             <LinkBox />
           )}

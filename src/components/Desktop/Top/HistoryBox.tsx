@@ -39,7 +39,6 @@ const TextBox = styled.div`
 const LinkBox = styled.a`
   color: #454545;
   font-size: 15px;
-  padding-top: 8px;
   font-weight: 500;
   text-decoration: underline;
   a:hover {
@@ -66,7 +65,7 @@ const DetailDate = styled.span`
 const DetailContainer = styled.div`
   display: flex;
   flex-direction: row;
-  padding-bottom: 1.5%;
+  /* padding-bottom: 1.5%; */
 `;
 
 const HistoryBox = () => {

@@ -104,7 +104,7 @@ const Main = () => {
             <Border
               position={'relative'}
               margin={'0px 0px -1532px 15px'}
-              height={'1368px'}
+              height={'1372px'}
               float={'left'}
             />
 
@@ -112,8 +112,8 @@ const Main = () => {
             <div ref={menuVreview} />
             <Border
               position={'relative'}
-              margin={'97px 0px -1171px 30px'}
-              height={'1093px'}
+              margin={'97px 0px -1131px 30px'}
+              height={'1053px'}
               float={'left'}
             />
             <Indentation>

@@ -2,12 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-  /* display: flex;
-  flex-direction: column; */
+  display: block;
   line-height: 1.7;
-  padding-top: 73.5px;
+  margin-top: 73.5px;
+  /* padding-top: 20px; */
   padding-left: 20px;
-  padding-bottom: calc(71px - 33px);
+  height: 180px;
+  margin-bottom: 60px;
 
   font-family: 'IBM Plex Mono', monospace;
 `;
@@ -19,11 +20,12 @@ const Title = styled.span`
   color: #356efb;
   top: 0.8em;
   z-index: 2;
+  margin-top: 45px;
 `;
 
 const TextBox = styled.div`
   z-index: 1;
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: center;
   background: #efeded;
@@ -32,7 +34,7 @@ const TextBox = styled.div`
   font-weight: 400;
   color: #454545;
   padding-left: 20px;
-  padding-top: 20px;
+  height: 100%;
 `;
 
 const LinkBox = styled.a`
@@ -51,7 +53,7 @@ const DetailTitle = styled.span`
   font-size: 12px;
   font-weight: 500;
   color: #8e8e8e;
-  padding-top: 30px;
+  padding-top: 23px;
   padding-bottom: 10px;
 `;
 
@@ -65,7 +67,7 @@ const DetailDate = styled.span`
 
 const DetailSentence = styled.div`
   font-size: 13px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 `;
 
 const PressBox = () => {

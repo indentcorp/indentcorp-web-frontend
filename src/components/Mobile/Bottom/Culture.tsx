@@ -48,7 +48,7 @@ const DetailTitle = styled.span`
 
 const Text = styled.div`
   flex-direction: column;
-  padding-bottom: 55.25px;
+  padding-bottom: 52.14px;
 `;
 
 const Culture = () => {
@@ -56,11 +56,7 @@ const Culture = () => {
     <Container>
       <TitleBox>[◊ indenter’s culture]</TitleBox>
       <TextBox>
-        <Border
-          top={'10px'}
-          margin={'0px 0px -3387px 10px'}
-          height={'3402px'}
-        />
+        <Border margin={'0px 0px -3381px 10px'} height={'3381px'} />
         {/* <Text> */}
         <DetailBox>
           <Highlighter

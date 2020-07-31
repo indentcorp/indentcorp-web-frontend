@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   font-family: 'Noto Sans KR', sans-serif;
-  margin-top: 40px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   line-height: 22px;
@@ -14,14 +14,15 @@ const Container = styled.div`
 
 const TitleBox = styled.span`
   font-family: 'Noto Sans KR', sans-serif;
+  line-height: 25px;
   color: #8e8e8e;
-  font-size: 18px;
+  font-size: 17px;
   margin-bottom: 15px;
 `;
 
 const PaneSection = styled.div`
   font-family: 'Noto Sans KR', sans-serif;
-  padding-left: 35px;
+  padding-left: 60px;
   padding-top: 35px;
   clear: both;
 `;
@@ -63,7 +64,9 @@ const WhatPerson = () => {
   return (
     <Container>
       <TitleBox>
-        온전히 일에 집중할 수 있도록 이러한 환경에서 일합니다.
+        온전히 일에 집중할 수 있도록
+        <br />
+        이러한 환경에서 일합니다.
       </TitleBox>
       <Carousel />
     </Container>

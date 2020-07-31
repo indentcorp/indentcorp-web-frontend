@@ -64,6 +64,7 @@ const Links = styled.div`
 `;
 
 const LinkText = styled.div`
+  font-family: 'Noto Sans KR', sans-serif;
   display: flex;
   flex-direction: column;
 `;

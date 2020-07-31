@@ -6,7 +6,6 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   font-family: 'Noto Sans KR', sans-serif;
-  margin-top: 25px;
   display: flex;
   flex-direction: column;
   line-height: 22px;
@@ -21,7 +20,7 @@ const TitleBox = styled.span`
 
 const PaneSection = styled.div`
   font-family: 'Noto Sans KR', sans-serif;
-  padding-left: 35px;
+  padding-left: 60px;
   padding-top: 35px;
   clear: both;
 `;
@@ -47,7 +46,7 @@ const PaneContent = styled.p`
   font-size: 13px;
   top: 30px;
   color: #454545;
-  line-height: 24px;
+  line-height: 22px;
 `;
 
 const CarouselCont = styled.div`
@@ -221,7 +220,9 @@ const FourthPane = () => {
         더 나은 결과를 위한 변동이나
         <br /> 예측하지 못한 변수에 유동적으로
         <br /> 대처해야합니다. 새로운
-        <br /> 것에 대한 수용, 새로운 것으로의 도전 모두에 열려있는
+        <br /> 것에 대한 수용, 새로운
+        <br />
+        것으로의 도전 모두에 열려있는
         <br /> 사람이길 바랍니다.
       </PaneContent>
     </PaneSection>

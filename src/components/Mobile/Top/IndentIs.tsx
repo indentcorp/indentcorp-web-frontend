@@ -35,7 +35,6 @@ const TextBox = styled.div`
   z-index: 1;
   display: flex;
   flex-direction: row;
-  margin-bottom: -40px;
 `;
 const Text = styled.div`
   position: relative;

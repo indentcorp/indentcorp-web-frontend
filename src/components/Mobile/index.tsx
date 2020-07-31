@@ -81,23 +81,24 @@ const Main = () => {
       <TopColor>
         <Border
           position={'relative'}
-          margin={'0px 0px -5786px 10px'}
-          height={'5868px'}
+          margin={'0px 0px -5582px 10px'}
+          height={'5580px'}
         />
         <div ref={menuIndent} />
         <Intro />
         <BoldIndent />
         <Border
           position={'relative'}
-          margin={'0px 0px -1392px 20px'}
-          height={'1315px'}
+          margin={'0px 0px -1353px 20px'}
+          height={'1278px'}
         />
         <Indentation>
           <IndentIs />
           <Border
+            top={'68px'}
             position={'relative'}
-            margin={'67px 0px -1037px 20px'}
-            height={'1018px'}
+            margin={'0px 0px -980px 20px'}
+            height={'980px'}
           />
           <div ref={menuVreview} />
           <Indentation>
@@ -124,11 +125,12 @@ const Main = () => {
         </Indentation>
         <Indentation>
           <Border
+            top={'25px'}
             position={'relative'}
-            margin={'0px 0px -824px 20px'}
-            height={'810px'}
+            margin={'0px 0px -852px 20px'}
+            height={'816px'}
           />
-          <Indentation>
+          <Indentation style={{ marginTop: '65px' }}>
             <Indentation>
               <Indentation>
                 <WhatPerson />

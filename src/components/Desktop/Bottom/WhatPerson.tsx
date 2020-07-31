@@ -55,8 +55,7 @@ const PaneContent = styled.p`
 `;
 
 const CarouselCont = styled.div`
-  /* in the case of 1200px */
-  width: 874px;
+  width: 2000px;
   height: 290px;
   background-color: #deffe6;
 `;
@@ -105,7 +104,11 @@ const ArrowSettings = {
   width: '60px',
   height: '128px',
   top: '143px',
-  right: '273px',
+  right: '1358px',
+  responsive: [
+    { breakpoint: 9999, settings: 'unslick' },
+    { breakpoint: 1, settings: 'unslick' },
+  ],
 };
 
 function NextArrow(props: any) {

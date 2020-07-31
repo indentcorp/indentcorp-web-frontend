@@ -115,14 +115,25 @@ const Frame = () => {
           <NameBox>{item.id}</NameBox>
           <PositionBox>{item.position}</PositionBox>
           {item.blogLink ? (
-            <LinkBox href={item.blogLink} style={{ paddingRight: '10px' }}>
+            <LinkBox
+              target='_blank'
+              rel='noopener noreferrer'
+              href={item.blogLink}
+              style={{ paddingRight: '10px' }}
+            >
               Blog
             </LinkBox>
           ) : (
             <LinkBox />
           )}
           {item.ghLink ? (
-            <LinkBox href={item.ghLink}>Github</LinkBox>
+            <LinkBox
+              target='_blank'
+              rel='noopener noreferrer'
+              href={item.ghLink}
+            >
+              Github
+            </LinkBox>
           ) : (
             <LinkBox />
           )}

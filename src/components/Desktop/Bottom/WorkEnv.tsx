@@ -47,7 +47,6 @@ const PaneTitle = styled.p`
 const PaneContent = styled.p`
   position: relative;
   font-size: 15px;
-  /* width: 399px; */
   top: 30px;
   color: #454545;
   line-height: 24px;
@@ -55,8 +54,7 @@ const PaneContent = styled.p`
 `;
 
 const CarouselCont = styled.div`
-  /* in case of 1200px */
-  width: 874px;
+  width: 2000px;
   height: 290px;
   background-color: #deffe6;
 `;
@@ -107,7 +105,11 @@ const ArrowSettings = {
   width: '60px',
   height: '128px',
   top: '143px',
-  right: '273px',
+  right: '1358px',
+  responsive: [
+    { breakpoint: 9999, settings: 'unslick' },
+    { breakpoint: 1, settings: 'unslick' },
+  ],
 };
 
 function NextArrow(props: any) {
@@ -163,7 +165,7 @@ class Carousel extends Component {
 const FirstPane = () => {
   return (
     <PaneSection>
-      <PageNum>1/4</PageNum>
+      <PageNum>1/3</PageNum>
       <PaneTitle>적극적인 보상 시스템.</PaneTitle>
       <PaneContent>
         개인의 업무 성과가 있다면 그에 대해 합리적으로 보상합니다.
@@ -178,7 +180,7 @@ const FirstPane = () => {
 const SecondPane = () => {
   return (
     <PaneSection>
-      <PageNum>2/4</PageNum>
+      <PageNum>2/3</PageNum>
       <PaneTitle>자유로운 근무 환경</PaneTitle>
       <PaneContent>
         투명한 업무 공유를 기반으로 자율 출퇴근과 리모트 근무를 장려합니다.
@@ -193,7 +195,7 @@ const SecondPane = () => {
 const ThirdPane = () => {
   return (
     <PaneSection>
-      <PageNum>3/4</PageNum>
+      <PageNum>3/3</PageNum>
       <PaneTitle>생산성 향상을 위한 지원</PaneTitle>
       <PaneContent>
         맥북 프로, 아이맥, 다수의 서브 모니터 등 개인의 생산성을 위한

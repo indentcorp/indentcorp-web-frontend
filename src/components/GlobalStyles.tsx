@@ -13,6 +13,9 @@ const GlobalStyles = createGlobalStyle`
         width: 100%;
         height:100%;
     }
+    html{
+        overflow-x:hidden;
+    }
     body{
         margin: 0px;
         padding: 0px;

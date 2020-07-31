@@ -10,6 +10,7 @@ const Container = styled.div`
   width: 335px;
   margin-left: 20px;
   font-family: 'IBM Plex Mono', monospace;
+  height: 372px;
 `;
 
 const Numbering = styled.span`
@@ -28,8 +29,9 @@ const Title = styled.span`
   }
 `;
 const TextWrapper = styled.div`
-  padding-bottom: 23px;
+  /* padding-bottom: 23px; */
   padding-left: 25px;
+  height: 372px;
 `;
 const TextBox = styled.div`
   position: relative;
@@ -37,7 +39,7 @@ const TextBox = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: left;
-  margin-top: 6px;
+  /* margin-top: 6px; */
   margin-bottom: 15px;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 13px;
@@ -55,7 +57,7 @@ const Links = styled.div`
   font-size: 14px;
   margin-left: 27px;
   padding-left: 25px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 `;
 
 const LinkBox = styled.a<{ textColor: string }>`
@@ -69,13 +71,14 @@ const LinkBox = styled.a<{ textColor: string }>`
 `;
 
 const LinkText = styled.p`
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 11px;
   color: #8e8e8e;
   padding-top: 6px;
 `;
 
 const FirstSentence = styled.div`
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   /* font-weight: 300; */
 `;
 
