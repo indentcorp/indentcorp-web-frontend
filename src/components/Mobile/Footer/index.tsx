@@ -13,6 +13,9 @@ const Container = styled.div`
 const Content = styled.div`
   width: 100%;
   max-width: 311px;
+  @media (max-width: 360px) {
+    padding-left: 20px;
+  }
 `;
 
 const FooterLogo = styled.img`

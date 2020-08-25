@@ -8,9 +8,7 @@ import { ReactComponent as CursorDown } from '../../../../assets/cursor_down.svg
 
 const Container = styled.div`
   position: fixed;
-  /* margin-left: 127px; */
   background-color: transparent !important;
-  /* margin-top: 93px; */
   font-family: 'IBM Plex Mono', monospace;
   white-space: pre;
   z-index: 60;
@@ -146,7 +144,7 @@ const DropDown = ({ selectedRef }: any) => {
           style={{
             padding: '24.54px 30px 24.54px 30px',
             position: 'absolute',
-            left: 'calc(335.45px - 30px)',
+            right: '10px',
           }}
         >
           <CursorDown
@@ -175,7 +173,7 @@ const DropDown = ({ selectedRef }: any) => {
                 style={{
                   padding: '24.54px 30px 24.54px 30px',
                   position: 'absolute',
-                  left: 'calc(335.45px - 30px)',
+                  right: '10px',
                 }}
               >
                 <CursorUp

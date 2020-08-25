@@ -44,7 +44,8 @@ const VerticalDiv = styled.div`
   flex-direction: row;
   width: 300px;
   height: 124px;
-  margin-right: calc(85px + 5px + 24px);
+  position: relative;
+  margin-right: 85px;
 `;
 
 const LinkBox = styled.div`
@@ -107,10 +108,10 @@ const Recruit = () => {
             highlightWidth={'15px'}
             highlightHeight={'76px'}
             margin={'0px 0px 0px 0px'}
-            left={'7px'}
+            // left={'7px'}
             zIndex={-1}
           />
-          <LinkBox style={{ width: '320px' }}>
+          <LinkBox style={{ width: '320px', left: '-7px' }}>
             <Link
               target='_blank'
               rel='noopener noreferrer'

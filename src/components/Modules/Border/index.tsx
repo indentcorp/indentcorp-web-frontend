@@ -15,6 +15,12 @@ interface Props {
   padding?: string | undefined;
   display?: string | undefined;
   float?: string | undefined;
+  margin360?: string | undefined;
+  height360?: string | undefined;
+  top360?: string | undefined;
+  margin335?: string | undefined;
+  height335?: string | undefined;
+  top335?: string | undefined;
 }
 
 const BorderStyle = styled.div<{
@@ -30,6 +36,12 @@ const BorderStyle = styled.div<{
   left?: string | undefined;
   display?: string | undefined;
   float?: string | undefined;
+  margin360?: string | undefined;
+  height360?: string | undefined;
+  top360?: string | undefined;
+  margin335?: string | undefined;
+  height335?: string | undefined;
+  top335?: string | undefined;
 }>`
   top: ${({ top }) => top};
   right: ${({ right }) => right};
@@ -46,6 +58,16 @@ const BorderStyle = styled.div<{
   width: 1px;
   display: ${({ display }) => display};
   float: ${({ float }) => float};
+  @media (max-width: 360px) {
+    margin: ${({ margin360 }) => margin360};
+    height: ${({ height360 }) => height360};
+    top: ${({ top360 }) => top360};
+  }
+  @media (max-width: 335px) {
+    margin: ${({ margin335 }) => margin335};
+    height: ${({ height335 }) => height335};
+    top: ${({ top335 }) => top335};
+  }
 `;
 
 const Border = ({
@@ -62,6 +84,12 @@ const Border = ({
   left,
   display,
   float,
+  margin360,
+  height360,
+  top360,
+  margin335,
+  height335,
+  top335,
 }: Props) => {
   return (
     <>
@@ -79,6 +107,12 @@ const Border = ({
         left={left}
         display={display}
         float={float}
+        margin360={margin360}
+        height360={height360}
+        top360={top360}
+        margin335={margin335}
+        height335={height335}
+        top335={top335}
       />
     </>
   );

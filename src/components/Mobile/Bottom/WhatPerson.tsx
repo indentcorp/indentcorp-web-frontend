@@ -23,6 +23,9 @@ const PaneSection = styled.div`
   padding-left: 60px;
   padding-top: 35px;
   clear: both;
+  @media (max-width: 335px) {
+    padding-left: 37px;
+  }
 `;
 
 const PageNum = styled.span`
@@ -52,7 +55,7 @@ const PaneContent = styled.p`
 `;
 
 const CarouselCont = styled.div`
-  width: 2000px;
+  width: 100vw;
   height: 330px;
   background-color: #deffe6;
 `;
@@ -100,7 +103,8 @@ const ArrowSettings = {
   width: '41px',
   height: '128px',
   top: '163px',
-  right: 'calc(2000px - 325px)',
+  // right: 'calc(2000px - 325px)',
+  right: '62px',
   'z-index': '10px',
 };
 

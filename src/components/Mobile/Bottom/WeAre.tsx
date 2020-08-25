@@ -20,15 +20,26 @@ const TitleBox = styled.div`
 
 const FrameCont = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+  /* grid-template-columns: repeat(auto-fill, 104px); */
   column-gap: 21px;
+  /*
+  @media (max-width: 335px) {
+    column-gap: 10px;
+  } */
   row-gap: 35px;
   max-width: 300px;
   padding-bottom: calc(80px + 17px);
   margin-left: 20px;
+  @media (max-width: 360px) {
+    column-gap: 0px;
+    width: 295px;
+  }
+  @media (max-width: 335px) {
+    width: 265px;
+  }
 `;
 const FrameBox = styled.div<{ gridArea: string }>`
-  /* height: calc(114px + 25px); */
   grid-area: ${({ gridArea }) => gridArea};
 `;
 
@@ -36,6 +47,14 @@ const MediaBox = styled.div`
   position: relative;
   width: 132px;
   height: 132px;
+  @media (max-width: 360px) {
+    width: 118px;
+    height: 118px;
+  }
+  @media (max-width: 335px) {
+    width: 104px;
+    height: 104px;
+  }
   cursor: pointer;
   text-align: center;
   video {
@@ -158,140 +177,3 @@ const WeAre = () => {
 };
 
 export default WeAre;
-
-// const TeamData = {
-//   data: [
-//     {
-//       id: '1',
-//       position: 'S/W Engineer',
-//       blogLink: null,
-//       ghLink: null,
-//       gridArea: 'auto',
-//       poster:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/w_still.jpg',
-//       videoSrc:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/w_mov_200k.mp4',
-//     },
-//     {
-//       id: 'Alan',
-//       position: 'S/W Engineer',
-//       blogLink: 'https://www.44bits.io/ko',
-//       ghLink: 'https://github.com/raccoonyy/',
-//       gridArea: 'auto',
-//       poster:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/ksh_mov_200k.jpg',
-//       videoSrc:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/ksh_mov_200k.mp4',
-//     },
-//     {
-//       id: 'Blackbull',
-//       position: 'S/W Engineer',
-//       blogLink: 'https://developer-park.tistory.com/',
-//       ghLink: 'https://github.com/devsehyeon',
-//       gridArea: 'auto',
-//       poster:
-//         'https://vreview-assets.s3-ap-northeast-1.amazonaws.com/indentcorp.com/images/sh2_mod_200k.jpg',
-//       videoSrc:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/sh2_mod_200k.mp4',
-//     },
-//     {
-//       id: 'Clara',
-//       position: 'Dog',
-//       blogLink: null,
-//       ghLink: null,
-//       gridArea: 'auto',
-//       poster:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/clara_still.jpg',
-//       videoSrc:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/clara_mov_200k.mp4',
-//     },
-//     {
-//       id: 'Daegeun',
-//       position: 'S/W Engineer',
-//       blogLink: null,
-//       ghLink: 'https://github.com/gnkr8',
-//       gridArea: 'auto',
-//       poster:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/kdg_200k.jpg',
-//       videoSrc:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/kdg_200k.mp4',
-//     },
-//     {
-//       id: 'Gyunho',
-//       position: 'Operator',
-//       blogLink: null,
-//       ghLink: null,
-//       gridArea: 'auto',
-//       poster:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/gh_mov_200k.jpg',
-//       videoSrc:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/gh_mov_200k.mp4',
-//     },
-//     {
-//       id: 'Hyeonho',
-//       position: 'Project Manager',
-//       blogLink: null,
-//       ghLink: null,
-//       gridArea: 'auto',
-//       poster:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/khh_200k.jpg',
-//       videoSrc:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/khh_200k.mp4',
-//     },
-//     {
-//       id: 'Jack',
-//       position: 'Come Back !',
-//       blogLink: null,
-//       ghLink: null,
-//       gridArea: 'auto',
-//       poster:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/jack_still.jpg',
-//       videoSrc:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/jack_mov_200k.mp4',
-//     },
-//     {
-//       id: 'Jen',
-//       position: 'CX Designer',
-//       blogLink: null,
-//       ghLink: null,
-//       gridArea: 'auto',
-//       poster:
-//         'https://vreview-assets.s3-ap-northeast-1.amazonaws.com/indentcorp.com/images/jy_mov_200k.jpg',
-//       videoSrc:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/jy_mov_200k.mp4',
-//     },
-//     {
-//       id: 'MC',
-//       position: 'Sales Manager',
-//       blogLink: null,
-//       ghLink: null,
-//       gridArea: 'auto',
-//       poster:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/ljh_200k.jpg',
-//       videoSrc:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/ljh_200k.mp4',
-//     },
-//     {
-//       id: 'Morgan',
-//       position: 'CEO',
-//       blogLink: null,
-//       ghLink: null,
-//       gridArea: 'auto',
-//       poster:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/ts_still.jpg',
-//       videoSrc:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/ts_mov_200k.mp4',
-//     },
-//     {
-//       id: 'Wonhee',
-//       position: 'Operator',
-//       blogLink: null,
-//       ghLink: null,
-//       gridArea: 'auto',
-//       poster:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/wh_mov_200k.jpg',
-//       videoSrc:
-//         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/wh.mp4',
-//     },
-//   ],
-// };

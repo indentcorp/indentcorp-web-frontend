@@ -71,6 +71,10 @@ const Main = () => {
           position={'relative'}
           margin={'0px 0px -6160px 10px'}
           height={'6160px'}
+          margin360={'0px 0px -6045px 10px'}
+          height360={'6045px'}
+          margin335={'0px 0px -5932px 10px'}
+          height335={'5932px'}
         />
         <div ref={menuIndent} />
         <Intro />

@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-  margin-top: -159px;
+  position: relative;
+  margin-top: 287px;
   font-size: 36px;
   color: #fffeaf;
   text-align: left;

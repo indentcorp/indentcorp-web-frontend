@@ -7,15 +7,23 @@ const Container = styled.div`
   line-height: 1.7;
   margin-left: 91px;
   font-size: 13px;
-  /* width: 284px; */
   height: 447px;
   background-color: #efeded;
+  position: absolute;
+  right: 0px;
+  padding-right: 30px;
+  @media (max-width: 335px) {
+    padding-right: 18px;
+  }
 `;
 
 const Section = styled.div`
   position: relative;
   margin: 90px 0px 52px 77px;
   height: 265px;
+  @media (max-width: 335px) {
+    margin: 90px 0px 52px 53px;
+  }
 `;
 
 const TextBox = styled.div`

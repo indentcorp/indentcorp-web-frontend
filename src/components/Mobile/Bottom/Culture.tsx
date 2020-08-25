@@ -61,6 +61,10 @@ const Culture = () => {
           margin={'0px 0px -4058px 10px'}
           height={'4058px'}
           top={'-4px'}
+          margin360={'0px 0px -3943px 10px'}
+          height360={'3943px'}
+          margin335={'0px 0px -3832px 10px'}
+          height335={'3832px'}
         />
         <DetailBox>
           <Highlighter
