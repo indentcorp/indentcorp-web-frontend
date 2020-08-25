@@ -14,9 +14,7 @@ const Container = styled.div`
   font-weight: 600;
   line-height: 90px;
   margin-left: 100px;
-  margin-bottom: 222px;
-  @media (max-width: 1200px) {
-  }
+  margin-bottom: 152px;
 `;
 
 const BoldIndent = () => {

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const HighlighterStyle = styled.div<{
+  position?: string;
   highlightColor: string;
   highlightWidth: string | undefined;
   highlightHeight: string | undefined;
@@ -15,7 +16,7 @@ const HighlighterStyle = styled.div<{
   opacity?: string | undefined;
   margin?: string | undefined;
 }>`
-  position: relative;
+  position: ${({ position }) => (position ? position : 'relative')};
   background-color: ${({ highlightColor }) => highlightColor};
   width: ${({ highlightWidth }) => (highlightWidth ? highlightWidth : '24px')};
   height: ${({ highlightHeight }) =>
@@ -31,10 +32,10 @@ const HighlighterStyle = styled.div<{
     left: ${({ left1440 }) => left1440};
     height: ${({ height1440 }) => height1440};
   }
-  }
 `;
 
 interface Props {
+  position?: string;
   highlightColor: string;
   highlightWidth?: string | undefined;
   highlightHeight?: string | undefined;
@@ -50,6 +51,7 @@ interface Props {
 }
 
 const Highlighter = ({
+  position,
   highlightColor,
   highlightWidth,
   highlightHeight,
@@ -65,6 +67,7 @@ const Highlighter = ({
 }: Props) => {
   return (
     <HighlighterStyle
+      position={position}
       highlightColor={highlightColor}
       highlightWidth={highlightWidth}
       highlightHeight={highlightHeight}

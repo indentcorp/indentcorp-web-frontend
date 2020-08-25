@@ -1,12 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
 import styled from 'styled-components';
-import MenuOption from '../MenuOption';
+import MenuOption from '../Components/MenuOption';
 import { Titles, MenuList } from '../index';
 import useDetectOut from './DetectOut';
 import { ReactComponent as CursorUp } from '../../../../assets/cursor_up.svg';
 import { ReactComponent as CursorDown } from '../../../../assets/cursor_down.svg';
-import { SlideDown } from 'react-slidedown';
-import 'react-slidedown/lib/slidedown.css';
 
 const Container = styled.div`
   position: fixed;
@@ -32,7 +30,7 @@ const MenuBar = styled.div<{
 const MenuButton = styled.p`
   height: 57px;
   border: none;
-  padding: 17px 30px;
+  padding: 16px 30px;
   margin-right: 155.45px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -54,9 +52,10 @@ const FirstOption = styled.div`
   width: 100%;
 `;
 
-const Svg = styled.span``;
+// const Svg = styled.span``;
 
 const NavWrapper = styled.nav``;
+const CursorBox = styled.div``;
 
 const MenuWrapper = styled.ul`
   width: 100vw;
@@ -64,8 +63,9 @@ const MenuWrapper = styled.ul`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  /* line-height: 30px; */
   z-index: 60;
-  /* padding: 0px 0px 17px 30px; */
+  padding: 0px 0px 8px 0px;
   background-color: #efeded;
   white-space: pre;
   opacity: 85%;
@@ -100,22 +100,34 @@ const DropDown = ({ selectedRef }: any) => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      if (currentScrollY < 799) {
+      if (currentScrollY < selectedRef.menuVreview) {
         setIsSelected(IndentCorp);
       }
-      if (currentScrollY >= 799 && currentScrollY < 1950) {
+      if (
+        currentScrollY >= selectedRef.menuVreview &&
+        currentScrollY < selectedRef.menuCulture
+      ) {
         setIsSelected(Vreview);
       }
-      if (currentScrollY >= 1950 && currentScrollY < 3189) {
+      if (
+        currentScrollY >= selectedRef.menuCulture &&
+        currentScrollY < selectedRef.menuRecruit
+      ) {
         setIsSelected(Culture);
       }
-      if (currentScrollY >= 3189 && currentScrollY < 3547) {
+      if (
+        currentScrollY >= selectedRef.menuRecruit &&
+        currentScrollY < selectedRef.menuWeAre
+      ) {
         setIsSelected(Recruit);
       }
-      if (currentScrollY >= 3547 && currentScrollY < 4831) {
+      if (
+        currentScrollY >= selectedRef.menuWeAre &&
+        currentScrollY < selectedRef.menuContact
+      ) {
         setIsSelected(WeAre);
       }
-      if (currentScrollY >= 4831) {
+      if (currentScrollY >= selectedRef.menuContact) {
         setIsSelected(ContactUs);
       }
     };
@@ -123,17 +135,26 @@ const DropDown = ({ selectedRef }: any) => {
     return () => {
       document.removeEventListener('scroll', handleScroll);
     };
-  }, []);
-  // };
+  }, [selectedRef]);
   console.log(selectedRef, 'selectedRef');
   return (
     <Container>
       <MenuBar isActive={isActive}>
         <MenuButton onClick={onClick}>{isSelected}</MenuButton>
-        <CursorDown
+        <CursorBox
           onClick={onClick}
-          style={{ margin: '22px 0px 0px 0px', float: 'right' }}
-        />
+          style={{
+            padding: '24.54px 30px 24.54px 30px',
+            position: 'absolute',
+            left: 'calc(335.45px - 30px)',
+          }}
+        >
+          <CursorDown
+            style={{
+              position: 'absolute',
+            }}
+          />
+        </CursorBox>
       </MenuBar>
       {isActive ? (
         <NavWrapper
@@ -149,10 +170,22 @@ const DropDown = ({ selectedRef }: any) => {
                 title={IndentCorp}
                 offsetTop={selectedRef.menuIndent}
               />
-              <CursorUp
+              <CursorBox
                 onClick={onClick}
-                style={{ margin: '22px 0px 0px 155.54px', float: 'right' }}
-              />
+                style={{
+                  padding: '24.54px 30px 24.54px 30px',
+                  position: 'absolute',
+                  left: 'calc(335.45px - 30px)',
+                }}
+              >
+                <CursorUp
+                  style={{
+                    // margin: '24.54px 0px 0px 0px',
+                    position: 'absolute',
+                    // left: '335.45px',
+                  }}
+                />
+              </CursorBox>
             </FirstOption>
             <MenuOption
               fontSize={'14px'}

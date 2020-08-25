@@ -10,9 +10,6 @@ const Container = styled.div`
   margin-left: 15px;
   margin-bottom: -48px;
   padding-left: 5px;
-  @media (max-width: 1650px) {
-    /* margin-left: 45vw; */
-  }
 `;
 
 const Numbering = styled.span`

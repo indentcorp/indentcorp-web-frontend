@@ -7,11 +7,9 @@ const Container = styled.div`
   line-height: 1.7;
   margin-left: 91px;
   font-size: 13px;
-  width: 284px;
+  /* width: 284px; */
   height: 447px;
   background-color: #efeded;
-  @media (max-width: 1200px) {
-  }
 `;
 
 const Section = styled.div`

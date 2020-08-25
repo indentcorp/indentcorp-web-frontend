@@ -21,7 +21,6 @@ const Section = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* align-items: left; */
   justify-content: center;
 `;
 
@@ -29,9 +28,9 @@ const Container = styled.div`
   display: block;
   width: 100%;
   min-width: 1440px;
-  @media (max-width: 1200px) {
+  /* @media (max-width: 1200px) {
     min-width: 1200px;
-  }
+  } */
 `;
 
 const TopColor = styled.div`
@@ -42,6 +41,7 @@ const TopColor = styled.div`
   justify-content: center;
   align-content: center;
 `;
+
 const BottomColor = styled.div`
   width: 100%;
   padding-left: 481px;
@@ -93,9 +93,10 @@ const Main = () => {
         <TopColor>
           <Border
             position={'relative'}
-            margin={'90px 0px -5974px 0px'}
-            height={'5884px'}
+            margin={'0px 0px -6148px 0px'}
+            height={'6148px'}
             float={'left'}
+            top={'90px'}
           />
           <Section>
             <div ref={menuIndent} />
@@ -103,26 +104,28 @@ const Main = () => {
             <BoldIndent />
             <Border
               position={'relative'}
-              margin={'0px 0px -1532px 15px'}
-              height={'1372px'}
+              margin={'0px 0px -1364px 15px'}
+              height={'1364px'}
               float={'left'}
+              top={'67px'}
             />
 
             <IndentIs />
             <div ref={menuVreview} />
             <Border
               position={'relative'}
-              margin={'97px 0px -1131px 30px'}
-              height={'1053px'}
+              margin={'97px 0px -1103px 30px'}
+              height={'1103px'}
               float={'left'}
+              top={'77px'}
             />
             <Indentation>
               <VreviewIs />
               <Border
-                top={'143px'}
+                top={'20px'}
                 position={'relative'}
                 margin={'0px 0px 0px 30px'}
-                height={'422px'}
+                height={'402px'}
                 float={'left'}
               />
               <Indentation>
@@ -138,17 +141,25 @@ const Main = () => {
           <Indentation>
             <Border />
             <Indentation>
-              <Border />
-              <WhatPerson />
-              <WorkEnv />
+              <Border
+                // top={'143px'}
+                position={'relative'}
+                margin={'0px 0px -733px 0px'}
+                height={'733px'}
+                float={'left'}
+              />
+              <Indentation>
+                <WhatPerson />
+                <WorkEnv />
+              </Indentation>
               <div ref={menuRecruit} />
               <Recruit />
               <div ref={menuWeAre} />
               <WeAre />
               <div ref={menuContact} />
               <ContactUs />
-              <Conclusion />
             </Indentation>
+            <Conclusion />
           </Indentation>
         </BottomColor>
       </MainSection>

@@ -3,11 +3,11 @@ import styled from 'styled-components';
 import Highlighter from '../../Modules/Highlighter';
 
 const Container = styled.div`
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-bottom: 100px;
 `;
 
-const TextBox = styled.span`
+const TextBox = styled.div`
   display: flex;
   flex-direction: row;
   font-family: 'Noto Sans KR', sans-serif;
@@ -15,6 +15,7 @@ const TextBox = styled.span`
   color: #8e8e8e;
   line-height: 21px;
   margin-bottom: 18px;
+  margin-left: -10px;
 `;
 
 const GlyphBox = styled.p`
@@ -38,7 +39,7 @@ const Conclusion = () => {
             highlightColor={'#FFFEAF'}
             highlightWidth={'10px'}
             highlightHeight={'62px'}
-            margin={'0px -9px 0px 0px'}
+            margin={'0px -5.5px 0px 0px'}
             zIndex={-1}
           />
           우리는 한 문단에 함께 마침표를 찍고

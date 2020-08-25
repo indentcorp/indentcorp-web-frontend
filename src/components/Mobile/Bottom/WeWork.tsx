@@ -21,7 +21,7 @@ const WeWork = () => {
       <TextBox>
         We
         <br />
-        Work
+        work
         <br />
         anywhere
         <br />

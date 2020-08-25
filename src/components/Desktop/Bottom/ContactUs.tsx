@@ -4,14 +4,13 @@ import Border from '../../Modules/Border';
 import Highlighter from '../../Modules/Highlighter';
 import MapAPI from './MapAPI';
 import WeWork from './WeWork';
+
 const Container = styled.div`
   font-family: 'IBM Plex Mono', monospace;
   width: 785px;
   height: 768px;
-  padding-top: 90px;
+  padding-top: 89.5px;
   color: #8e8e8e;
-  @media (max-width: 1200px) {
-  }
 `;
 
 const TitleBox = styled.span`
@@ -19,7 +18,7 @@ const TitleBox = styled.span`
   font-size: 29px;
 `;
 
-const TextBox = styled.p`
+const TextBox = styled.div`
   font-weight: 300;
   font-size: 17px;
   color: #454545;
@@ -40,7 +39,7 @@ const AddressBox = styled.div`
   color: #585858;
   margin-top: 15px;
   margin-bottom: 20px;
-  line-height: 27px;
+  line-height: 22px;
 `;
 const BorderMargin = styled.div`
   margin-left: 15px;
@@ -52,8 +51,8 @@ const ContactUs = () => {
       <TitleBox>[@ contact us]</TitleBox>
       <WeWork />
       <Border
-        height={'545px'}
-        margin={'60px 0px -544px 0px'}
+        height={'537px'}
+        margin={'60px 0px -537px 0px'}
         padding={'0px 15px 0px 0px'}
       />
       <BorderMargin>
@@ -62,8 +61,9 @@ const ContactUs = () => {
             highlightColor={'#E6E6E6'}
             highlightWidth={'15px'}
             highlightHeight={'25px'}
-            margin={'0px -9px 0px 0px'}
+            margin={'0px -8px 0px 0px'}
             zIndex={-1}
+            top={'-2.5px'}
           />
           contact@indentcorp.com
         </TextBox>
@@ -72,14 +72,15 @@ const ContactUs = () => {
             highlightColor={'#E6E6E6'}
             highlightWidth={'15px'}
             highlightHeight={'25px'}
-            margin={'0px -9px 0px 0px'}
+            margin={'0px -8px 0px 0px'}
             zIndex={-1}
+            top={'-2.5px'}
           />
           +82-2-536-3474
         </TextBox>
         <Border
-          height={'410px'}
-          margin={'60px 0px -412px 0px'}
+          height={'404px'}
+          margin={'60px 0px -404px 0px'}
           padding={'0px 15px 0px 0px'}
         />
         <BorderMargin>

@@ -18,27 +18,15 @@ import Border from '../../components/Modules/Border';
 import Footer from './Footer';
 
 const Container = styled.div`
-  /* display: block; */
-`;
-
-const Section = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  overflow-x: hidden;
 `;
 
 const TopColor = styled.div`
   background-color: #eae8e8;
 `;
+
 const BottomColor = styled.div`
   width: 100%;
-  /* padding-left: 481px; */
-`;
-
-const MainSection = styled.div`
-  /* display: flex;
-  flex-direction: column; */
 `;
 
 const Indentation = styled.div`
@@ -81,24 +69,25 @@ const Main = () => {
       <TopColor>
         <Border
           position={'relative'}
-          margin={'0px 0px -5582px 10px'}
-          height={'5580px'}
+          margin={'0px 0px -6160px 10px'}
+          height={'6160px'}
         />
         <div ref={menuIndent} />
         <Intro />
         <BoldIndent />
         <Border
           position={'relative'}
-          margin={'0px 0px -1353px 20px'}
-          height={'1278px'}
+          margin={'0px 0px -1279px 20px'}
+          height={'1279px'}
+          top={'80px'}
         />
         <Indentation>
           <IndentIs />
           <Border
             top={'68px'}
             position={'relative'}
-            margin={'0px 0px -980px 20px'}
-            height={'980px'}
+            margin={'0px 0px -986px 20px'}
+            height={'986px'}
           />
           <div ref={menuVreview} />
           <Indentation>
@@ -107,8 +96,9 @@ const Main = () => {
 
           <Border
             position={'relative'}
-            margin={'67px 0px -527px 30px'}
-            height={'420px'}
+            margin={'0px 0px -408px 30px'}
+            height={'408px'}
+            top={'85px'}
           />
           <Indentation>
             <Indentation>

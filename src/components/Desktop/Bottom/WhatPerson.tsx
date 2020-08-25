@@ -6,12 +6,10 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   font-family: 'Noto Sans KR', sans-serif;
-  margin-top: 71px;
+  margin-top: 91px;
   display: flex;
   flex-direction: column;
-  line-height: 1.7;
-  @media (max-width: 1200px) {
-  }
+  /* line-height: 1.7; */
 `;
 
 const TitleBox = styled.span`
@@ -23,39 +21,44 @@ const TitleBox = styled.span`
 
 const PaneSection = styled.div`
   font-family: 'Noto Sans KR', sans-serif;
-  padding-left: 151px;
+  padding-left: 181px;
   padding-top: 40px;
-  padding-bottom: 80px;
-  clear: both;
+  height: 290px;
+  /* padding-bottom: 80px; */
+  /* clear: both; */
 `;
 
-const PageNum = styled.span`
+const PageNum = styled.div`
+  position: relative;
+  left: 3px;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 700;
+  padding-bottom: 10px;
   color: #a0a0a0;
+  line-height: 25px;
 `;
 
-const PaneTitle = styled.p`
+const PaneTitle = styled.div`
   position: relative;
   font-family: 'Noto Sans KR', sans-serif;
   color: #454545;
   font-weight: 300;
   font-size: 21px;
-  top: 5px;
+  /* top: 5px; */
 `;
 
 const PaneContent = styled.p`
   position: relative;
   font-size: 15px;
-  /* width: 399px; */
   top: 30px;
   color: #454545;
   line-height: 24px;
   letter-spacing: -0.3px;
+  line-height: 24px;
 `;
 
 const CarouselCont = styled.div`
-  width: 2000px;
+  width: 5000px;
   height: 290px;
   background-color: #deffe6;
 `;
@@ -75,7 +78,8 @@ export default WhatPerson;
 
 //importing svg didn't work, i had to hard code the svg
 const CarouselStyle = styled(Slider)`
-  width: 100%;
+  width: calc(581px + 101px);
+  /* width: 780px; */
   .slick-prev::before {
     font-family: 'IBM Plex Mono SemiBold', monospace;
     font-size: 100px;
@@ -104,9 +108,9 @@ const ArrowSettings = {
   width: '60px',
   height: '128px',
   top: '143px',
-  right: '1358px',
+  right: '0px',
   responsive: [
-    { breakpoint: 9999, settings: 'unslick' },
+    { breakpoint: 780, settings: 'unslick' },
     { breakpoint: 1, settings: 'unslick' },
   ],
 };
@@ -146,6 +150,7 @@ class Carousel extends Component {
       infinite: true,
       slidesToShow: 1,
       slidesToScroll: 1,
+      speed: 800,
       nextArrow: <NextArrow />,
       prevArrow: <PrevArrow />,
     };

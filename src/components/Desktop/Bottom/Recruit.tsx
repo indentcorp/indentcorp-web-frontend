@@ -6,12 +6,11 @@ import Border from '../../Modules/Border';
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   font-family: 'IBM Plex Mono', monospace;
-  width: 785px;
+  width: 919px;
   height: 406px;
-  @media (max-width: 1440px) {
-  }
+  /* margin-bottom: -10px; */
 `;
 
 const TextBox = styled.div`
@@ -22,25 +21,30 @@ const TextBox = styled.div`
   justify-content: flex-start;
   /* border-left: 1px solid #d8d8d8; */
   /* align-content: space-between; */
-  width: 650px;
-  height: 120px;
+  /* width: 650px; */
+  /* height: 120px; */
 `;
 const TitleBox = styled.div`
   color: #8e8e8e;
   font-weight: 500;
   font-size: 29px;
+  padding: 90.5px 693.5px 60px 0px;
+  white-space: pre;
 `;
 
 const Link = styled.a`
   top: -11px;
   font-size: 17px;
   color: #356efb;
-  padding: 15px 35px 15px 0px;
+  padding: 17px 0px 17px 0px;
 `;
 
 const VerticalDiv = styled.div`
   display: flex;
   flex-direction: row;
+  width: 300px;
+  height: 124px;
+  margin-right: calc(85px + 5px + 24px);
 `;
 
 const LinkBox = styled.div`
@@ -50,9 +54,9 @@ const LinkBox = styled.div`
   top: -15px;
 `;
 
-const Margin = styled.div`
-  margin-left: 15px;
-`;
+// const Margin = styled.div`
+//   margin-left: 15px;
+// `;
 
 const Recruit = () => {
   return (
@@ -61,7 +65,7 @@ const Recruit = () => {
       <TextBox>
         <VerticalDiv>
           <Border
-            margin={'-5px 0px 0px 0px'}
+            margin={'0px 0px 0px 0px'}
             height={'127px'}
             padding={'0px 7px 0px 0px'}
           />
@@ -71,28 +75,27 @@ const Recruit = () => {
             highlightHeight={'127px'}
             margin={'0px 0px 0px 0px'}
             left={'7px'}
-            top={'-5px'}
             zIndex={-1}
           />
           <LinkBox>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='notion://www.notion.so/indent/ffc3c0e523ff4c6894f5ceaaed53fdec'
+              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
             >
               Frontend Engineer →
             </Link>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='notion://www.notion.so/indent/5903e879540f4f09a890b7532d48b802'
+              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
             >
               Backend Engineer →
             </Link>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='notion://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
+              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
             >
               Fullstack Engineer →
             </Link>
@@ -105,21 +108,20 @@ const Recruit = () => {
             highlightHeight={'76px'}
             margin={'0px 0px 0px 0px'}
             left={'7px'}
-            top={'-5px'}
             zIndex={-1}
           />
-          <LinkBox>
+          <LinkBox style={{ width: '320px' }}>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='notion://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
+              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
             >
               Brand Marketer →
             </Link>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='notion://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
+              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
             >
               Administrative Assistant →
             </Link>

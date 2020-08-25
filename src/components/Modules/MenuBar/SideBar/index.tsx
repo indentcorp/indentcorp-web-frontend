@@ -1,6 +1,6 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import MenuOption from '../MenuOption';
+import MenuOption from '../Components/MenuOption';
 import { Titles, MenuList } from '../index';
 
 const Container = styled.div`
@@ -43,22 +43,34 @@ const SideBar = ({ selectedRef }: any) => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      if (currentScrollY < 799) {
+      if (currentScrollY < selectedRef.menuVreview) {
         setIsSelected(IndentCorp);
       }
-      if (currentScrollY >= 799 && currentScrollY < 1950) {
+      if (
+        currentScrollY >= selectedRef.menuVreview &&
+        currentScrollY < selectedRef.menuCulture
+      ) {
         setIsSelected(Vreview);
       }
-      if (currentScrollY >= 1950 && currentScrollY < 3189) {
+      if (
+        currentScrollY >= selectedRef.menuCulture &&
+        currentScrollY < selectedRef.menuRecruit
+      ) {
         setIsSelected(Culture);
       }
-      if (currentScrollY >= 3189 && currentScrollY < 3547) {
+      if (
+        currentScrollY >= selectedRef.menuRecruit &&
+        currentScrollY < selectedRef.menuWeAre
+      ) {
         setIsSelected(Recruit);
       }
-      if (currentScrollY >= 3547 && currentScrollY < 4831) {
+      if (
+        currentScrollY >= selectedRef.menuWeAre &&
+        currentScrollY < selectedRef.menuContact
+      ) {
         setIsSelected(WeAre);
       }
-      if (currentScrollY >= 4831) {
+      if (currentScrollY >= selectedRef.menuContact) {
         setIsSelected(ContactUs);
       }
     };
@@ -66,8 +78,7 @@ const SideBar = ({ selectedRef }: any) => {
     return () => {
       document.removeEventListener('scroll', handleScroll);
     };
-  }, []);
-
+  }, [selectedRef]);
   return (
     <Container>
       <Border />

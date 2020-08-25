@@ -7,14 +7,15 @@ const Container = styled.div`
   margin-top: 67px;
   background: #efeded;
   /* height: 500px; */
-  width: 335px;
+  /* width: 335px; */
   margin-left: 20px;
   font-family: 'IBM Plex Mono', monospace;
   height: 372px;
 `;
 
-const Numbering = styled.span`
+const Numbering = styled.div`
   font-weight: 400;
+  width: 15px;
 `;
 
 const Title = styled.span`
@@ -25,12 +26,10 @@ const Title = styled.span`
   bottom: 24px;
   margin-bottom: -61px;
   z-index: 2;
-  @media (max-width: 1440px) {
-  }
 `;
 const TextWrapper = styled.div`
   /* padding-bottom: 23px; */
-  padding-left: 25px;
+  padding-left: 20px;
   height: 372px;
 `;
 const TextBox = styled.div`
@@ -56,7 +55,7 @@ const Links = styled.div`
   flex-direction: column;
   font-size: 14px;
   margin-left: 27px;
-  padding-left: 25px;
+  padding-left: 28px;
   /* margin-top: 30px; */
 `;
 

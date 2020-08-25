@@ -5,6 +5,7 @@ const Container = styled.div`
   margin-bottom: -376px;
   position: relative;
   top: -35px;
+  z-index: -1;
 `;
 
 const TextBox = styled.p`

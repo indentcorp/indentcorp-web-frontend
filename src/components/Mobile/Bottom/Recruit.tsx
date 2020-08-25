@@ -27,7 +27,7 @@ const TitleBox = styled.p`
   color: #8e8e8e;
   font-weight: 500;
   font-size: 20px;
-  padding-bottom: 10px;
+  padding-bottom: calc(40px - 9px);
 `;
 
 const Link = styled.a`
@@ -74,21 +74,21 @@ const Recruit = () => {
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='notion://www.notion.so/indent/ffc3c0e523ff4c6894f5ceaaed53fdec'
+              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
             >
               Frontend Engineer →
             </Link>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='notion://www.notion.so/indent/5903e879540f4f09a890b7532d48b802'
+              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
             >
               Backend Engineer →
             </Link>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='notion://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
+              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
               style={{ paddingBottom: '45px' }}
             >
               Fullstack Engineer →
@@ -108,14 +108,14 @@ const Recruit = () => {
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='notion://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
+              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
             >
               Brand Marketer →
             </Link>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='notion://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
+              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
             >
               Administrative Assistant →
             </Link>

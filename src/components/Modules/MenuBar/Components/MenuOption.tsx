@@ -15,7 +15,7 @@ const Title = styled.div<{
   font-size: ${({ fontSize }) => (fontSize ? fontSize : '15px')};
   color: #454545;
   list-style: none;
-  @media (max-width: 500px) {
+  @media (max-width: 420px) {
     padding: 17px 30px;
   }
 `;
@@ -36,11 +36,15 @@ const MenuOption = ({
   fontSize,
 }: Props) => {
   const scrollHandler = (offsetTop: number) => {
+    console.log('offsetTop', offsetTop);
     switchMenuHandler(title);
+    // window.scrollTo(0, 1000);
     window.scrollTo({
       top: offsetTop,
       behavior: 'smooth',
     });
+    // SmoothVerticalScrolling(Element, 100, offsetTop);
+    // console.log('scrollHandler fired');
   };
   return (
     <Container onClick={() => scrollHandler(offsetTop)}>
@@ -56,3 +60,18 @@ const MenuOption = ({
 };
 
 export default MenuOption;
+
+function SmoothVerticalScrolling(e, time, where) {
+  var eTop = e.getBoundingClientRect().top;
+  var eAmt = eTop / 100;
+  var curTime = 0;
+  while (curTime <= time) {
+    window.setTimeout(SVS_B, curTime, eAmt, where);
+    curTime += time / 100;
+  }
+}
+
+function SVS_B(eAmt, where) {
+  if (where === 'center' || where === '') window.scrollBy(0, eAmt / 2);
+  if (where === 'top') window.scrollBy(0, eAmt);
+}

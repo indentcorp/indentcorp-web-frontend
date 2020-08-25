@@ -1,21 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 import Highlighter from '../../Modules/Highlighter';
-import Border from '../../Modules/Border';
 
 const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  line-height: 1.7;
+  line-height: 30px;
   margin-left: 335px;
   font-size: 17px;
   width: 473px;
   height: 423px;
   background-color: #efeded;
-  @media (max-width: 1200px) {
-  }
 `;
 
 const Section = styled.div`
@@ -34,7 +31,6 @@ const Content = styled.p`
   letter-spacing: -0.3px;
   color: #454545;
   z-index: 2;
-  }
 `;
 
 const Intro = () => {
@@ -50,7 +46,7 @@ const Intro = () => {
           left='-7px'
         />
         <TextBox>
-          <Content style={{ marginBottom: '35px' }}>
+          <Content style={{ marginBottom: '27px' }}>
             {'다른 문장과 똑같은 출발점에서 나란히 시작하면'}
             <br />
             {'새로운 문단일지라도 그 시작이 명확하지 않습니다.'}

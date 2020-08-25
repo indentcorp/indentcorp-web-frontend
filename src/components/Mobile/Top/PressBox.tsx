@@ -2,14 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-  display: block;
-  line-height: 1.7;
-  margin-top: 73.5px;
+  /* display: block; */
+  /* line-height: 0px; */
+  margin-top: 65.5px;
   /* padding-top: 20px; */
   padding-left: 20px;
   height: 180px;
-  margin-bottom: 60px;
-
+  margin-bottom: 47.5px;
+  /* width: 325px; */
+  height: 180px;
   font-family: 'IBM Plex Mono', monospace;
 `;
 
@@ -18,23 +19,25 @@ const Title = styled.span`
   font-weight: 400;
   font-size: 20px;
   color: #356efb;
-  top: 0.8em;
+  top: 10px;
   z-index: 2;
-  margin-top: 45px;
+  /* margin-top: 45px; */
 `;
 
 const TextBox = styled.div`
-  z-index: 1;
-  display: block;
-  flex-direction: column;
-  justify-content: center;
+  /* z-index: 1; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
   background: #efeded;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: #454545;
-  padding-left: 20px;
+  padding: 45px 0px 28px 20px;
+  /* padding-left: 20px; */
   height: 100%;
+  /* width: 325px; */
 `;
 
 const LinkBox = styled.a`
@@ -53,7 +56,7 @@ const DetailTitle = styled.span`
   font-size: 12px;
   font-weight: 500;
   color: #8e8e8e;
-  padding-top: 23px;
+  /* padding-top: 23px; */
   padding-bottom: 10px;
 `;
 
@@ -62,12 +65,16 @@ const DetailDate = styled.span`
   font-weight: 400;
   font-size: 12px;
   color: #8e8e8e;
-  margin-left: 5px;
+  margin-left: 15px;
 `;
 
 const DetailSentence = styled.div`
   font-size: 13px;
-  padding-bottom: 20px;
+  line-height: 1.7;
+  margin: 10px 0px 20px 0px;
+  width: 250px;
+  height: 41px;
+  /* padding-bottom: 20px; */
 `;
 
 const PressBox = () => {
@@ -76,14 +83,9 @@ const PressBox = () => {
       <Title>(Press)</Title>
       <TextBox>
         <DetailTitle>
-          벤처스퀘어 <DetailDate>2019. 12.</DetailDate>
+          벤처스퀘어 <DetailDate>2020. 05.</DetailDate>
         </DetailTitle>
-        <br />
-        <DetailSentence>
-          인덴트코퍼레이션, 퓨처플레이 등으로부터
-          <br /> 12억 규모 투자 유치
-        </DetailSentence>
-        <br />
+        <DetailSentence>구매 전환율 끌어올린 '동영상 후기'의 힘</DetailSentence>
         <LinkBox
           target='_blank'
           rel='noopener noreferrer'

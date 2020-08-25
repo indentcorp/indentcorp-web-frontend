@@ -19,7 +19,7 @@ const TitleBox = styled.span`
   margin-left: 10px;
 `;
 
-const TextBox = styled.p`
+const TextBox = styled.div`
   font-size: 13px;
   font-weight: 300;
   color: #454545;
@@ -56,15 +56,15 @@ const ContactUs = () => {
   return (
     <Container>
       <TitleBox>[@ contact us]</TitleBox>
-      <Border height={'443px'} margin={'40px 0px -437px 10px'} />
+      <Border height={'427px'} margin={'40px 0px -427px 10px'} top={'-2px'} />
       <Indentation>
         <Indentation>
           <TextBox>
             <Highlighter
-              top={'-5px'}
+              top={'-2px'}
               highlightColor={'#E6E6E6'}
-              highlightWidth={'15px'}
-              highlightHeight={'25px'}
+              highlightWidth={'10px'}
+              highlightHeight={'19px'}
               margin={'0px -5px 0px 0px'}
               zIndex={-1}
             />
@@ -72,10 +72,10 @@ const ContactUs = () => {
           </TextBox>
           <TextBox>
             <Highlighter
-              top={'-5px'}
+              top={'-2px'}
               highlightColor={'#E6E6E6'}
-              highlightWidth={'15px'}
-              highlightHeight={'25px'}
+              highlightWidth={'10px'}
+              highlightHeight={'19px'}
               margin={'0px -5px 0px 0px'}
               zIndex={-1}
             />
@@ -87,7 +87,6 @@ const ContactUs = () => {
         <Indentation style={{ position: 'relative', top: '-25px' }}>
           <Indentation>
             <MainOffice>Main Office</MainOffice>
-
             {/* <Highlighter
               highlightColor={'#E6E6E6'}
               highlightWidth={'14px'}

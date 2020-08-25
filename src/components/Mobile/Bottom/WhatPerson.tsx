@@ -30,6 +30,8 @@ const PageNum = styled.span`
   font-weight: 700;
   font-size: 12px;
   color: #a0a0a0;
+  position: relative;
+  left: 2px;
 `;
 
 const PaneTitle = styled.p`
@@ -50,7 +52,7 @@ const PaneContent = styled.p`
 `;
 
 const CarouselCont = styled.div`
-  width: 335px;
+  width: 2000px;
   height: 330px;
   background-color: #deffe6;
 `;
@@ -80,12 +82,12 @@ const CarouselStyle = styled(Slider)`
     color: #afffd4;
   }
   .slick-prev {
-    z-index: 2;
+    z-index: 10;
     left: -28px;
     content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='39' height='36.972' viewBox='0 0 39 36.972'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bisolation:isolate;%7D.b%7Bfill:%23afffd4;%7D%3C/style%3E%3C/defs%3E%3Cg class='a'%3E%3Cg class='a'%3E%3Cpath class='b' d='M142.28,252.531,125.9,238.748v-9.405l16.38-13.784,3.161,6.811-10.946,11.676,10.946,11.676Zm19.458,0-16.377-13.783v-9.405l16.377-13.784,3.162,6.811-10.945,11.676L164.9,245.721Z' transform='translate(-125.9 -215.559)'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   }
   .slick-next {
-    z-index: 2;
+    z-index: 10;
     right: 25px;
   }
   .slick-list {
@@ -98,7 +100,8 @@ const ArrowSettings = {
   width: '41px',
   height: '128px',
   top: '163px',
-  right: '25px',
+  right: 'calc(2000px - 325px)',
+  'z-index': '10px',
 };
 
 function NextArrow(props: any) {
@@ -136,6 +139,7 @@ class Carousel extends Component {
       infinite: true,
       slidesToShow: 1,
       slidesToScroll: 1,
+      speed: 800,
       nextArrow: <NextArrow />,
       prevArrow: <PrevArrow />,
     };

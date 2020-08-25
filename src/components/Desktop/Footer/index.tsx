@@ -6,8 +6,9 @@ const Container = styled.div`
   background-color: #f8f8f8;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 40px 0;
+  justify-content: initial;
+  padding: 40px;
+  padding-left: 127px;
 `;
 
 const Content = styled.div`

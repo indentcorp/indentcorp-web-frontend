@@ -5,29 +5,29 @@ import Highlighter from '../../Modules/Highlighter';
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  line-height: 1.7;
+  /* line-height: 1.7; */
   margin-top: 78px;
   background: #efeded;
   height: 408px;
   margin-left: 30px;
   font-family: 'IBM Plex Mono', monospace;
-  @media (max-width: 1200px) {
-  }
 `;
 
-const Numbering = styled.span`
+const Numbering = styled.div`
   font-weight: 400;
+  margin-right: 6px;
 `;
 
-const Title = styled.span`
+const Title = styled.div`
   position: relative;
+  width: 378px;
+  height: 91px;
   font-weight: 300;
   font-size: 70px;
   color: #356efb;
-  top: -61px;
+  top: -45.5px;
+  right: 16px;
   z-index: 2;
-  @media (max-width: 1440px) {
-  }
 `;
 const TextWrapper = styled.div`
   margin-left: 45px;
@@ -41,7 +41,7 @@ const TextBox = styled.div`
 
   /* height: 60.2vh; */
   /* width: 100%; */
-  margin-top: -45px;
+  margin-top: calc(50px - 45.5px);
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 17px;
   font-weight: 400;
@@ -51,7 +51,8 @@ const TextBox = styled.div`
 `;
 const Text = styled.div`
   position: relative;
-  margin-left: 12px;
+  left: -6.5px;
+  /* margin-left: 12px; */
   /* top: -50px; */
 `;
 const Links = styled.div`
@@ -60,7 +61,8 @@ const Links = styled.div`
   display: flex;
   flex-direction: row;
   margin-top: 40px;
-  margin-left: 113px;
+  margin-left: calc(15px + 83px);
+  padding-bottom: calc(116px - 0.8em);
 `;
 
 const LinkText = styled.div`
@@ -70,9 +72,13 @@ const LinkText = styled.div`
 `;
 
 const LinkBox = styled.a<{ textColor: string }>`
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 17px;
+  font-weight: 500;
   color: ${({ textColor }) => textColor};
   text-decoration: underline;
   margin-right: 134px;
+  /* line-height: 45px; */
   a:visited {
     color: ${({ textColor }) => textColor};
   }
@@ -82,6 +88,7 @@ const LinkSentence = styled.p`
   padding-top: 10px;
   color: #8e8e8e;
   font-size: 13px;
+  letter-spacing: -0.26px;
   text-decoration: none;
 `;
 
@@ -92,6 +99,7 @@ const FirstSentence = styled.div`
 const Sentence = styled.div`
   display: flex;
   padding-bottom: 20px;
+  line-height: 30px;
 `;
 
 const VreviewIs = () => {
@@ -100,16 +108,13 @@ const VreviewIs = () => {
       <Container>
         <TextWrapper>
           <Title>[vreview]</Title>
-          {/* <Title>{'[indent corp.]'}</Title> */}
           <TextBox>
             <Highlighter
               highlightColor={'#FFFEAF'}
               highlightHeight={'253px'}
               highlightWidth='15px'
               top={'0px'}
-              top1440={'50px'}
-              left={'18px'}
-              left1440={'15'}
+              // left={'18px'}
               zIndex={-1}
             />
             <Text>

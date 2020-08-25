@@ -49,6 +49,7 @@ const DetailTitle = styled.span`
 const Text = styled.div`
   flex-direction: column;
   padding-bottom: 52.14px;
+  margin-left: 3px;
 `;
 
 const Culture = () => {
@@ -56,12 +57,15 @@ const Culture = () => {
     <Container>
       <TitleBox>[◊ indenter’s culture]</TitleBox>
       <TextBox>
-        <Border margin={'0px 0px -3381px 10px'} height={'3381px'} />
-        {/* <Text> */}
+        <Border
+          margin={'0px 0px -4058px 10px'}
+          height={'4058px'}
+          top={'-4px'}
+        />
         <DetailBox>
           <Highlighter
             highlightColor={'#DEFFE6'}
-            highlightWidth={'14px'}
+            highlightWidth={'10px'}
             highlightHeight={'105px'}
             left={'8px'}
             top={'-5px'}
@@ -79,7 +83,7 @@ const Culture = () => {
         <DetailBox>
           <Highlighter
             highlightColor={'#DEFFE6'}
-            highlightWidth={'14px'}
+            highlightWidth={'10px'}
             highlightHeight={'105px'}
             left={'8px'}
             top={'-5px'}

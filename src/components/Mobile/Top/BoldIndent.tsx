@@ -10,7 +10,7 @@ const Container = styled.div`
   font-weight: 500;
   line-height: 52px;
   margin-left: 20px;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 `;
 
 const BoldIndent = () => {
