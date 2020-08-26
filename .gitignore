@@ -260,9 +260,9 @@ sketch
 *.asp
 *.cer
 *.csr
-*.css
+# *.css
 *.htm
-*.html
+# *.html
 *.js
 *.jsp
 *.php

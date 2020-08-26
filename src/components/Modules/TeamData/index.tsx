@@ -68,7 +68,7 @@ const TeamData = {
     },
     {
       id: 'Hyeonho',
-      position: 'Project Manager',
+      position: 'Product Manager',
       blogLink: null,
       ghLink: null,
       gridArea: 'auto',
