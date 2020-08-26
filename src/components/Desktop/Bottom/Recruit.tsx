@@ -55,10 +55,6 @@ const LinkBox = styled.div`
   top: -15px;
 `;
 
-// const Margin = styled.div`
-//   margin-left: 15px;
-// `;
-
 const Recruit = () => {
   return (
     <Container>

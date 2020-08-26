@@ -2,10 +2,16 @@ import React, { useState, useEffect } from 'react';
 import Mobile from '../../components/Mobile';
 import Desktop from '../../components/Desktop';
 
+declare global {
+  interface Window {
+    VisualViewport: any;
+  }
+}
+
 const Presenter = () => {
   const [isMobile, setMobile] = useState(false);
   const getWindowSize = () => {
-    const deviceWidth = window.innerWidth;
+    const deviceWidth = window.screen.width;
     if (deviceWidth < 480) {
       setMobile(true);
     }

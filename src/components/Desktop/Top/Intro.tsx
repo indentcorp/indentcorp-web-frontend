@@ -20,7 +20,6 @@ const Section = styled.div`
   margin: 90px 45px 68px 53px;
   width: 375px;
   height: 265px;
-  /* //   padding: 52 50 50 0 px; */
 `;
 
 const TextBox = styled.div`

@@ -8,7 +8,7 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   font-family: 'IBM Plex Mono', monospace;
-  padding-top: 60.5px;
+  margin-top: 58.5px;
   height: 358px;
 `;
 
@@ -23,11 +23,12 @@ const TextBox = styled.div`
   /* height: 120px; */
   /* border-left: 1px solid #d8d8d8; */
 `;
-const TitleBox = styled.p`
+const TitleBox = styled.div`
   color: #8e8e8e;
   font-weight: 500;
   font-size: 20px;
-  padding-bottom: calc(40px - 9px);
+  padding-bottom: 10px;
+  /* margin-top: 80px; */
 `;
 
 const Link = styled.a`

@@ -93,8 +93,8 @@ const Main = () => {
         <TopColor>
           <Border
             position={'relative'}
-            margin={'0px 0px -6148px 0px'}
-            height={'6148px'}
+            margin={'0px 0px -6174px 0px'}
+            height={'6174px'}
             float={'left'}
             top={'90px'}
           />
@@ -104,8 +104,8 @@ const Main = () => {
             <BoldIndent />
             <Border
               position={'relative'}
-              margin={'0px 0px -1364px 15px'}
-              height={'1364px'}
+              margin={'0px 0px -1390px 15px'}
+              height={'1390px'}
               float={'left'}
               top={'67px'}
             />
@@ -114,10 +114,10 @@ const Main = () => {
             <div ref={menuVreview} />
             <Border
               position={'relative'}
-              margin={'97px 0px -1103px 30px'}
-              height={'1103px'}
+              margin={'0px 0px -1102px 30px'}
+              height={'1102px'}
               float={'left'}
-              top={'77px'}
+              top={'153px'}
             />
             <Indentation>
               <VreviewIs />
@@ -142,7 +142,6 @@ const Main = () => {
             <Border />
             <Indentation>
               <Border
-                // top={'143px'}
                 position={'relative'}
                 margin={'0px 0px -733px 0px'}
                 height={'733px'}

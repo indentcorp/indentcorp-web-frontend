@@ -36,15 +36,12 @@ const MenuOption = ({
   fontSize,
 }: Props) => {
   const scrollHandler = (offsetTop: number) => {
-    console.log('offsetTop', offsetTop);
+    // console.log('offsetTop', offsetTop);
     switchMenuHandler(title);
-    // window.scrollTo(0, 1000);
     window.scrollTo({
       top: offsetTop,
       behavior: 'smooth',
     });
-    // SmoothVerticalScrolling(Element, 100, offsetTop);
-    // console.log('scrollHandler fired');
   };
   return (
     <Container onClick={() => scrollHandler(offsetTop)}>

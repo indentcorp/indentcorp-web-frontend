@@ -8,7 +8,7 @@ const Container = styled.div`
   /* line-height: 1.7; */
   /* margin-top: 102px; */
   margin-left: calc(15px * 2);
-  margin-bottom: -48px;
+  /* margin-bottom: -48px; */
 `;
 
 const Numbering = styled.span`
@@ -39,7 +39,6 @@ const TextBox = styled.div`
 const Text = styled.div`
   position: relative;
   margin-left: -7px;
-  /* top: -50px; */
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 17px;
   color: #454545;

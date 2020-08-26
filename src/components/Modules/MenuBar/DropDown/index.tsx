@@ -37,20 +37,13 @@ const MenuButton = styled.p`
   text-align: left;
   font-size: 14px;
   font-weight: 600;
-  /* background-color: #efeded; */
   opacity: 85%;
 `;
-
-// const Cursor = styled.img`
-//   src: url(https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/group_60.svg);
-// `;
 
 const FirstOption = styled.div`
   display: flex;
   width: 100%;
 `;
-
-// const Svg = styled.span``;
 
 const NavWrapper = styled.nav``;
 const CursorBox = styled.div``;
@@ -61,7 +54,6 @@ const MenuWrapper = styled.ul`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* line-height: 30px; */
   z-index: 60;
   padding: 0px 0px 8px 0px;
   background-color: #efeded;
@@ -92,9 +84,6 @@ const DropDown = ({ selectedRef }: any) => {
   const switchMenuHandler = (title: Titles) => {
     setIsSelected(title);
   };
-  // const ScrollHandler = () => {
-  // const navRef = useRef();
-  // navRef.current = isSelected
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
@@ -134,7 +123,7 @@ const DropDown = ({ selectedRef }: any) => {
       document.removeEventListener('scroll', handleScroll);
     };
   }, [selectedRef]);
-  console.log(selectedRef, 'selectedRef');
+  // console.log(selectedRef, 'selectedRef');
   return (
     <Container>
       <MenuBar isActive={isActive}>
@@ -178,9 +167,7 @@ const DropDown = ({ selectedRef }: any) => {
               >
                 <CursorUp
                   style={{
-                    // margin: '24.54px 0px 0px 0px',
                     position: 'absolute',
-                    // left: '335.45px',
                   }}
                 />
               </CursorBox>
@@ -224,47 +211,6 @@ const DropDown = ({ selectedRef }: any) => {
         </NavWrapper>
       ) : null}
     </Container>
-    // <Container>
-    //   <Border />
-    //   <MenuWrapper>
-    //     <MenuOption
-    //       isSelected={isSelected === IndentCorp}
-    //       switchMenuHandler={switchMenuHandler}
-    //       title={IndentCorp}
-    //       offsetTop={selectedRef.menuIndent}
-    //     />
-    //     <MenuOption
-    //       isSelected={isSelected === Vreview}
-    //       switchMenuHandler={switchMenuHandler}
-    //       title={Vreview}
-    //       offsetTop={selectedRef.menuVreview}
-    //     />
-    //     <MenuOption
-    //       isSelected={isSelected === Culture}
-    //       switchMenuHandler={switchMenuHandler}
-    //       title={Culture}
-    //       offsetTop={selectedRef.menuCulture}
-    //     />
-    //     <MenuOption
-    //       isSelected={isSelected === Recruit}
-    //       switchMenuHandler={switchMenuHandler}
-    //       title={Recruit}
-    //       offsetTop={selectedRef.menuRecruit}
-    //     />
-    //     <MenuOption
-    //       isSelected={isSelected === WeAre}
-    //       switchMenuHandler={switchMenuHandler}
-    //       title={WeAre}
-    //       offsetTop={selectedRef.menuWeAre}
-    //     />
-    //     <MenuOption
-    //       isSelected={isSelected === ContactUs}
-    //       switchMenuHandler={switchMenuHandler}
-    //       title={ContactUs}
-    //       offsetTop={selectedRef.menuContact}
-    //     />
-    //   </MenuWrapper>
-    // </Container>
   );
 };
 

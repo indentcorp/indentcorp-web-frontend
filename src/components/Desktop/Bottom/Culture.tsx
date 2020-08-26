@@ -83,7 +83,6 @@ const Culture = () => {
             highlightColor={'#DEFFE6'}
             highlightWidth={'15px'}
             highlightHeight={'117px'}
-            // left={'15px'}
             zIndex={-1}
             margin={'0px -10px 0px 0px'}
           />

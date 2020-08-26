@@ -5,8 +5,7 @@ import Highlighter from '../../Modules/Highlighter';
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  /* line-height: 1.7; */
-  margin-top: 78px;
+  margin-top: 153px;
   background: #efeded;
   height: 408px;
   margin-left: 30px;
@@ -38,22 +37,15 @@ const TextBox = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: left;
-
-  /* height: 60.2vh; */
-  /* width: 100%; */
   margin-top: calc(50px - 45.5px);
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 17px;
   font-weight: 400;
   color: #356efb;
-  /* padding-left: 90px; */
-  /* top: -60px; */
 `;
 const Text = styled.div`
   position: relative;
   left: -6.5px;
-  /* margin-left: 12px; */
-  /* top: -50px; */
 `;
 const Links = styled.div`
   font-family: 'IBM Plex Mono', monospace;
@@ -78,7 +70,6 @@ const LinkBox = styled.a<{ textColor: string }>`
   color: ${({ textColor }) => textColor};
   text-decoration: underline;
   margin-right: 134px;
-  /* line-height: 45px; */
   a:visited {
     color: ${({ textColor }) => textColor};
   }
@@ -114,7 +105,6 @@ const VreviewIs = () => {
               highlightHeight={'253px'}
               highlightWidth='15px'
               top={'0px'}
-              // left={'18px'}
               zIndex={-1}
             />
             <Text>

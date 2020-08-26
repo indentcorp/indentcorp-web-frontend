@@ -69,20 +69,20 @@ const Main = () => {
       <TopColor>
         <Border
           position={'relative'}
-          margin={'0px 0px -6160px 10px'}
-          height={'6160px'}
-          margin360={'0px 0px -6045px 10px'}
-          height360={'6045px'}
-          margin335={'0px 0px -5932px 10px'}
-          height335={'5932px'}
+          margin={'0px 0px -6217px 10px'}
+          height={'6217px'}
+          margin360={'0px 0px -6106px 10px'}
+          height360={'6106px'}
+          margin335={'0px 0px -5992px 10px'}
+          height335={'5992px'}
         />
         <div ref={menuIndent} />
         <Intro />
         <BoldIndent />
         <Border
           position={'relative'}
-          margin={'0px 0px -1279px 20px'}
-          height={'1279px'}
+          margin={'0px 0px -1277px 20px'}
+          height={'1277px'}
           top={'80px'}
         />
         <Indentation>

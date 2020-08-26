@@ -78,35 +78,7 @@ const DetailContainer = styled.div`
   flex-direction: row;
   line-height: 34px;
   padding-top: 46.5px;
-  /* padding-bottom: 1.5%; */
 `;
-
-// const HistoryBox = () => {
-//   return (
-//     <Container>
-//       <Title>(History)</Title>
-//       <TextBox>
-//         <DetailContainer>
-//           <DetailDate>2020.02</DetailDate>
-//           <DetailText>TIPS 창업성장기술개발사업 선정</DetailText>
-//         </DetailContainer>
-//         <DetailContainer>
-//           <DetailDate>2019.12</DetailDate>
-//           <DetailText>12억 시드 투자 유치</DetailText>
-//         </DetailContainer>
-//         <LinkBox
-//           target='_blank'
-//           rel='noopener noreferrer'
-//           href='https://www.notion.so/indent/History-866409d11b194eaba4ae872235339b9c'
-//         >
-//           더보기 →
-//         </LinkBox>
-//       </TextBox>
-//     </Container>
-//   );
-// };
-
-// export default HistoryBox;
 
 const HistoryBox = () => {
   return (

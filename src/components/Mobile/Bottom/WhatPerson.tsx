@@ -103,7 +103,6 @@ const ArrowSettings = {
   width: '41px',
   height: '128px',
   top: '163px',
-  // right: 'calc(2000px - 325px)',
   right: '62px',
   'z-index': '10px',
 };

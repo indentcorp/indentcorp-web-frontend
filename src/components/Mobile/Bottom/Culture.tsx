@@ -58,13 +58,13 @@ const Culture = () => {
       <TitleBox>[◊ indenter’s culture]</TitleBox>
       <TextBox>
         <Border
-          margin={'0px 0px -4058px 10px'}
-          height={'4058px'}
+          margin={'0px 0px -4115px 10px'}
+          height={'4115px'}
           top={'-4px'}
-          margin360={'0px 0px -3943px 10px'}
-          height360={'3943px'}
-          margin335={'0px 0px -3832px 10px'}
-          height335={'3832px'}
+          margin360={'0px 0px -4003px 10px'}
+          height360={'4003px'}
+          margin335={'0px 0px -3892px 10px'}
+          height335={'3892px'}
         />
         <DetailBox>
           <Highlighter
