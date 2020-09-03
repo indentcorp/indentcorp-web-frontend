@@ -123,7 +123,6 @@ const DropDown = ({ selectedRef }: any) => {
       document.removeEventListener('scroll', handleScroll);
     };
   }, [selectedRef]);
-  // console.log(selectedRef, 'selectedRef');
   return (
     <Container>
       <MenuBar isActive={isActive}>

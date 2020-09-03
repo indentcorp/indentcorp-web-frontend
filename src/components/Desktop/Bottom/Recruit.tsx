@@ -6,23 +6,16 @@ import Border from '../../Modules/Border';
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  /* justify-content: space-evenly; */
   font-family: 'IBM Plex Mono', monospace;
   width: 919px;
   height: 406px;
-  /* margin-bottom: -10px; */
 `;
 
 const TextBox = styled.div`
   display: flex;
   flex-direction: row;
-  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
   font-size: 17px;
   justify-content: flex-start;
-  /* border-left: 1px solid #d8d8d8; */
-  /* align-content: space-between; */
-  /* width: 650px; */
-  /* height: 120px; */
 `;
 const TitleBox = styled.div`
   color: #8e8e8e;
@@ -78,21 +71,21 @@ const Recruit = () => {
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
+              href='https://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
             >
               Frontend Engineer →
             </Link>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
+              href='https://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
             >
               Backend Engineer →
             </Link>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
+              href='https://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
             >
               Fullstack Engineer →
             </Link>
@@ -104,21 +97,20 @@ const Recruit = () => {
             highlightWidth={'15px'}
             highlightHeight={'76px'}
             margin={'0px 0px 0px 0px'}
-            // left={'7px'}
             zIndex={-1}
           />
           <LinkBox style={{ width: '320px', left: '-7px' }}>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
+              href='https://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
             >
               Brand Marketer →
             </Link>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
+              href='https://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
             >
               Administrative Assistant →
             </Link>

@@ -36,7 +36,6 @@ const MenuOption = ({
   fontSize,
 }: Props) => {
   const scrollHandler = (offsetTop: number) => {
-    // console.log('offsetTop', offsetTop);
     switchMenuHandler(title);
     window.scrollTo({
       top: offsetTop,

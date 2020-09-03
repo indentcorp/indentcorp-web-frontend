@@ -14,16 +14,15 @@ const GlobalStyles = createGlobalStyle`
         height:100%;
     }
     html{
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
+        position: relative;
     }
     body{
         margin: 0px;
         padding: 0px;
-        height: 100vh;
         font-family: 'Noto Sans KR', sans-serif;
         color: black;
         overflow-x: hidden;
-        /* box-sizing: border-box; */
     }
 
 `;

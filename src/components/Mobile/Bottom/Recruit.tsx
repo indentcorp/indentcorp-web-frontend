@@ -19,16 +19,12 @@ const TextBox = styled.div`
   justify-content: flex-start;
   align-content: space-between;
   margin-bottom: calc(82px - 9px);
-  /* width: 650px; */
-  /* height: 120px; */
-  /* border-left: 1px solid #d8d8d8; */
 `;
 const TitleBox = styled.div`
   color: #8e8e8e;
   font-weight: 500;
   font-size: 20px;
   padding-bottom: 10px;
-  /* margin-top: 80px; */
 `;
 
 const Link = styled.a`
@@ -75,21 +71,21 @@ const Recruit = () => {
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
+              href='https://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
             >
               Frontend Engineer →
             </Link>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
+              href='https://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
             >
               Backend Engineer →
             </Link>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
+              href='https://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
               style={{ paddingBottom: '45px' }}
             >
               Fullstack Engineer →
@@ -109,14 +105,14 @@ const Recruit = () => {
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
+              href='https://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
             >
               Brand Marketer →
             </Link>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.notion.so/indent/18bdf53323db4a78b5817815f1ecba41'
+              href='https://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
             >
               Administrative Assistant →
             </Link>

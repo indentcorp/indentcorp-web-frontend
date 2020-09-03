@@ -21,12 +21,7 @@ const TitleBox = styled.div`
 const FrameCont = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
-  /* grid-template-columns: repeat(auto-fill, 104px); */
   column-gap: 21px;
-  /*
-  @media (max-width: 335px) {
-    column-gap: 10px;
-  } */
   row-gap: 35px;
   max-width: 300px;
   padding-bottom: calc(80px + 17px);
@@ -124,7 +119,6 @@ const Frame = ({ TeamData }) => {
           <MediaBox>
             <video
               className='videoInsert'
-              loop
               muted
               control
               preload='metadata'
