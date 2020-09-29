@@ -45,17 +45,6 @@ const TeamData = {
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/clara_mov_200k.mp4',
     },
     {
-      id: 'Daegeun',
-      position: 'S/W Engineer',
-      blogLink: null,
-      ghLink: 'https://github.com/gnkr8',
-      gridArea: 'auto',
-      poster:
-        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/kdg_200k.jpg',
-      videoSrc:
-        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/kdg_200k.mp4',
-    },
-    {
       id: 'Gyunho',
       position: 'Operator',
       blogLink: null,
