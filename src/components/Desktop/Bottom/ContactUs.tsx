@@ -2,8 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import Border from '../../Modules/Border';
 import Highlighter from '../../Modules/Highlighter';
-import MapAPI from './MapAPI';
+// import MapAPI from './MapAPI';
 import WeWork from './WeWork';
+import MapAPI from '../../Modules/MapAPI';
 
 const Container = styled.div`
   font-family: 'IBM Plex Mono', monospace;

@@ -55,7 +55,7 @@ const MapAPI: React.FC = () => {
 
   return (
     <div className='MapAPI'>
-      <div id='map' style={{ width: '223px', height: '223px' }} />
+      <div id='map' style={{ width: '309px', height: '309px' }} />
     </div>
   );
 };
