@@ -27,23 +27,23 @@ const Recruit = () => {
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
+              href='https://www.notion.so/indent/ffc3c0e523ff4c6894f5ceaaed53fdec'
             >
               Frontend Engineer →
             </Link>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
+              href='https://www.notion.so/indent/5903e879540f4f09a890b7532d48b802'
             >
               Backend Engineer →
             </Link>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
+              href='https://www.notion.so/indent/f7b95ea90fb44f92995c1b6458ed42b1'
             >
-              Fullstack Engineer →
+              Web / Graphic Designer →
             </Link>
           </LinkBox>
         </VerticalDiv>
@@ -59,16 +59,16 @@ const Recruit = () => {
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
+              href='https://www.notion.so/indent/0452e9f2428d43f798cd59e716e1898f'
             >
-              Brand Marketer →
+              Data Engineer →
             </Link>
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.notion.so/indent/Recruit-3ca9a9ddb2274acb8f119ad972d49cce'
+              href='https://www.notion.so/indent/5c171266cda6435f89992523c8839d2a'
             >
-              Administrative Assistant →
+              Data Scientist →
             </Link>
           </LinkBox>
         </VerticalDiv>
