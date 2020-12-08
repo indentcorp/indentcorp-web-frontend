@@ -4,79 +4,6 @@ import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import styled from 'styled-components';
 
-const Container = styled.div`
-  font-family: 'Noto Sans KR', sans-serif;
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  line-height: 22px;
-`;
-
-const TitleBox = styled.span`
-  font-family: 'Noto Sans KR', sans-serif;
-  line-height: 25px;
-  color: #8e8e8e;
-  font-size: 17px;
-  margin-bottom: 15px;
-`;
-
-const PaneSection = styled.div`
-  font-family: 'Noto Sans KR', sans-serif;
-  padding-left: 60px;
-  padding-top: 35px;
-  clear: both;
-  @media (max-width: 335px) {
-    padding-left: 37px;
-  }
-`;
-
-const PageNum = styled.span`
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: 700;
-  font-size: 12px;
-  color: #a0a0a0;
-  position: relative;
-  left: 2px;
-`;
-
-const PaneTitle = styled.p`
-  position: relative;
-  font-family: 'Noto Sans KR', sans-serif;
-  color: #454545;
-  font-weight: 300;
-  font-size: 18px;
-  top: 5px;
-  margin-bottom: -10px;
-`;
-
-const PaneContent = styled.div`
-  position: relative;
-  font-size: 13px;
-  color: #454545;
-  line-height: 22px;
-  padding-bottom: 40px;
-`;
-
-const TextBox = styled.div`
-  display: flex;
-  padding-top: 30px;
-  position: relative;
-  right: 9px;
-`;
-
-const DashBox = styled.div`
-  width: 10px;
-  height: 151px;
-  position: relative;
-  top: -0.6px;
-  color: #454545;
-`;
-
-const CarouselCont = styled.div`
-  width: 100vw;
-  height: 330px;
-  background-color: #deffe6;
-`;
 
 const WhatPerson = () => {
   return (
@@ -279,3 +206,77 @@ const ThirdPane = () => {
     </PaneSection>
   );
 };
+
+const Container = styled.div`
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  line-height: 22px;
+`;
+
+const TitleBox = styled.span`
+  font-family: 'Noto Sans KR', sans-serif;
+  line-height: 25px;
+  color: #8e8e8e;
+  font-size: 17px;
+  margin-bottom: 15px;
+`;
+
+const PaneSection = styled.div`
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-left: 60px;
+  padding-top: 35px;
+  clear: both;
+  @media (max-width: 335px) {
+    padding-left: 37px;
+  }
+`;
+
+const PageNum = styled.span`
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  font-size: 12px;
+  color: #a0a0a0;
+  position: relative;
+  left: 2px;
+`;
+
+const PaneTitle = styled.p`
+  position: relative;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #454545;
+  font-weight: 300;
+  font-size: 18px;
+  top: 5px;
+  margin-bottom: -10px;
+`;
+
+const PaneContent = styled.div`
+  position: relative;
+  font-size: 13px;
+  color: #454545;
+  line-height: 22px;
+  padding-bottom: 40px;
+`;
+
+const TextBox = styled.div`
+  display: flex;
+  padding-top: 30px;
+  position: relative;
+  right: 9px;
+`;
+
+const DashBox = styled.div`
+  width: 10px;
+  height: 151px;
+  position: relative;
+  top: -0.6px;
+  color: #454545;
+`;
+
+const CarouselCont = styled.div`
+  width: 100vw;
+  height: 330px;
+  background-color: #deffe6;
+`;

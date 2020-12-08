@@ -2,49 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import Border from '../../Modules/Border';
 import Highlighter from '../../Modules/Highlighter';
-// import MapAPI from './MapAPI';
 import WeWork from './WeWork';
 import MapAPI from '../../Modules/MapAPI';
 
-const Container = styled.div`
-  font-family: 'IBM Plex Mono', monospace;
-  width: 785px;
-  height: 768px;
-  padding-top: 89.5px;
-  color: #8e8e8e;
-`;
-
-const TitleBox = styled.span`
-  font-weight: 500;
-  font-size: 29px;
-`;
-
-const TextBox = styled.div`
-  font-weight: 300;
-  font-size: 17px;
-  color: #454545;
-  display: flex;
-  margin-bottom: 23px;
-`;
-
-const MainOffice = styled.div`
-  font-size: 15px;
-  font-weight: 500;
-  color: #8e8e8e;
-`;
-
-const AddressBox = styled.div`
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 15px;
-  font-weight: 300;
-  color: #585858;
-  margin-top: 15px;
-  margin-bottom: 20px;
-  line-height: 22px;
-`;
-const BorderMargin = styled.div`
-  margin-left: 15px;
-`;
 
 const ContactUs = () => {
   return (
@@ -98,3 +58,43 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+
+const Container = styled.div`
+  font-family: 'IBM Plex Mono', monospace;
+  width: 785px;
+  height: 768px;
+  padding-top: 89.5px;
+  color: #8e8e8e;
+`;
+
+const TitleBox = styled.span`
+  font-weight: 500;
+  font-size: 29px;
+`;
+
+const TextBox = styled.div`
+  font-weight: 300;
+  font-size: 17px;
+  color: #454545;
+  display: flex;
+  margin-bottom: 23px;
+`;
+
+const MainOffice = styled.div`
+  font-size: 15px;
+  font-weight: 500;
+  color: #8e8e8e;
+`;
+
+const AddressBox = styled.div`
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #585858;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  line-height: 22px;
+`;
+const BorderMargin = styled.div`
+  margin-left: 15px;
+`;

@@ -3,54 +3,6 @@ import styled from 'styled-components';
 import Highlighter from '../../Modules/Highlighter';
 import Border from '../../Modules/Border';
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  line-height: 21px;
-  margin-top: 80px;
-`;
-
-const TitleBox = styled.span`
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 20px;
-  font-weight: 500;
-  color: #a0a0a0;
-  margin-left: 10px;
-`;
-
-const TextBox = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin-top: 36.14px;
-`;
-
-const DetailBox = styled.div`
-  display: flex;
-  flex-direction: row;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-weight: 300;
-  margin-right: 48px;
-  margin-left: 12px;
-  min-width: 300px;
-`;
-
-const DetailText = styled.p`
-  font-size: 13px;
-  margin-top: 9.61px;
-`;
-
-const DetailTitle = styled.span`
-  font-size: 18px;
-  color: #454545;
-`;
-
-const Text = styled.div`
-  flex-direction: column;
-  padding-bottom: 52.14px;
-  margin-left: 3px;
-`;
 
 const Culture = () => {
   return (
@@ -111,3 +63,52 @@ const Culture = () => {
 };
 
 export default Culture;
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  line-height: 21px;
+  margin-top: 80px;
+`;
+
+const TitleBox = styled.span`
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 20px;
+  font-weight: 500;
+  color: #a0a0a0;
+  margin-left: 10px;
+`;
+
+const TextBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-top: 36.14px;
+`;
+
+const DetailBox = styled.div`
+  display: flex;
+  flex-direction: row;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  margin-right: 48px;
+  margin-left: 12px;
+  min-width: 300px;
+`;
+
+const DetailText = styled.p`
+  font-size: 13px;
+  margin-top: 9.61px;
+`;
+
+const DetailTitle = styled.span`
+  font-size: 18px;
+  color: #454545;
+`;
+
+const Text = styled.div`
+  flex-direction: column;
+  padding-bottom: 52.14px;
+  margin-left: 3px;
+`;

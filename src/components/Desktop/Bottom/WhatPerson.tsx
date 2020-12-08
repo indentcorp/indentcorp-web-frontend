@@ -4,64 +4,6 @@ import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import styled from 'styled-components';
 
-const Container = styled.div`
-  font-family: 'Noto Sans KR', sans-serif;
-  margin-top: 91px;
-  display: flex;
-  flex-direction: column;
-  /* line-height: 1.7; */
-`;
-
-const TitleBox = styled.span`
-  font-family: 'Noto Sans KR', sans-serif;
-  color: #8e8e8e;
-  font-size: 21px;
-  margin-bottom: 25px;
-`;
-
-const PaneSection = styled.div`
-  font-family: 'Noto Sans KR', sans-serif;
-  padding-left: 181px;
-  padding-top: 40px;
-  height: 290px;
-  /* padding-bottom: 80px; */
-  /* clear: both; */
-`;
-
-const PageNum = styled.div`
-  position: relative;
-  left: 3px;
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: 700;
-  padding-bottom: 10px;
-  color: #a0a0a0;
-  line-height: 25px;
-`;
-
-const PaneTitle = styled.div`
-  position: relative;
-  font-family: 'Noto Sans KR', sans-serif;
-  color: #454545;
-  font-weight: 300;
-  font-size: 21px;
-  /* top: 5px; */
-`;
-
-const PaneContent = styled.p`
-  position: relative;
-  font-size: 15px;
-  top: 30px;
-  color: #454545;
-  line-height: 24px;
-  letter-spacing: -0.3px;
-  line-height: 24px;
-`;
-
-const CarouselCont = styled.div`
-  width: 5000px;
-  height: 290px;
-  background-color: #deffe6;
-`;
 
 const WhatPerson = () => {
   return (
@@ -228,3 +170,62 @@ const FourthPane = () => {
     </PaneSection>
   );
 };
+
+const Container = styled.div`
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-top: 91px;
+  display: flex;
+  flex-direction: column;
+  /* line-height: 1.7; */
+`;
+
+const TitleBox = styled.span`
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #8e8e8e;
+  font-size: 21px;
+  margin-bottom: 25px;
+`;
+
+const PaneSection = styled.div`
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-left: 181px;
+  padding-top: 40px;
+  height: 290px;
+  /* padding-bottom: 80px; */
+  /* clear: both; */
+`;
+
+const PageNum = styled.div`
+  position: relative;
+  left: 3px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  padding-bottom: 10px;
+  color: #a0a0a0;
+  line-height: 25px;
+`;
+
+const PaneTitle = styled.div`
+  position: relative;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #454545;
+  font-weight: 300;
+  font-size: 21px;
+  /* top: 5px; */
+`;
+
+const PaneContent = styled.p`
+  position: relative;
+  font-size: 15px;
+  top: 30px;
+  color: #454545;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  line-height: 24px;
+`;
+
+const CarouselCont = styled.div`
+  width: 5000px;
+  height: 290px;
+  background-color: #deffe6;
+`;

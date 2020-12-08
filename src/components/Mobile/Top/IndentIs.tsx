@@ -2,6 +2,37 @@ import React from 'react';
 import styled from 'styled-components';
 import Highlighter from '../../Modules/Highlighter';
 
+
+const IndentIs = ({ receivingRef }: any) => {
+  return (
+    <Container>
+      <Title>[indent corp.]</Title>
+      <TextBox>
+        <Highlighter
+          highlightColor={'#FFFEAF'}
+          highlightWidth={'10px'}
+          highlightHeight={'102px'}
+          top={'-19px'}
+          zIndex={-1}
+        />
+        <Text>
+          <br />
+          <FirstSentence>인덴트코퍼레이션은</FirstSentence>
+          <Numbering>1.</Numbering> 미래를 예측하고
+          <br />
+          <Numbering>2.</Numbering> 현재를 활용하여
+          <br />
+          <Numbering>3.</Numbering> 시장을 혁신합니다.
+          <br />
+        </Text>
+        <div ref={receivingRef} />
+      </TextBox>
+    </Container>
+  );
+};
+
+export default IndentIs;
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -44,33 +75,3 @@ const Text = styled.div`
 const FirstSentence = styled.div`
   line-height: 3;
 `;
-
-const IndentIs = ({ receivingRef }: any) => {
-  return (
-    <Container>
-      <Title>[indent corp.]</Title>
-      <TextBox>
-        <Highlighter
-          highlightColor={'#FFFEAF'}
-          highlightWidth={'10px'}
-          highlightHeight={'102px'}
-          top={'-19px'}
-          zIndex={-1}
-        />
-        <Text>
-          <br />
-          <FirstSentence>인덴트코퍼레이션은</FirstSentence>
-          <Numbering>1.</Numbering> 미래를 예측하고
-          <br />
-          <Numbering>2.</Numbering> 현재를 활용하여
-          <br />
-          <Numbering>3.</Numbering> 시장을 혁신합니다.
-          <br />
-        </Text>
-        <div ref={receivingRef} />
-      </TextBox>
-    </Container>
-  );
-};
-
-export default IndentIs;

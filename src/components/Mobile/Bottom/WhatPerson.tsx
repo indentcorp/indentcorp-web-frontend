@@ -4,61 +4,6 @@ import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import styled from 'styled-components';
 
-const Container = styled.div`
-  font-family: 'Noto Sans KR', sans-serif;
-  display: flex;
-  flex-direction: column;
-  line-height: 22px;
-`;
-
-const TitleBox = styled.span`
-  font-family: 'Noto Sans KR', sans-serif;
-  color: #8e8e8e;
-  font-size: 18px;
-  margin-bottom: 15px;
-`;
-
-const PaneSection = styled.div`
-  font-family: 'Noto Sans KR', sans-serif;
-  padding-left: 60px;
-  padding-top: 35px;
-  clear: both;
-  @media (max-width: 335px) {
-    padding-left: 37px;
-  }
-`;
-
-const PageNum = styled.span`
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: 700;
-  font-size: 12px;
-  color: #a0a0a0;
-  position: relative;
-  left: 2px;
-`;
-
-const PaneTitle = styled.p`
-  position: relative;
-  font-family: 'Noto Sans KR', sans-serif;
-  color: #454545;
-  font-weight: 300;
-  font-size: 18px;
-  top: 5px;
-`;
-
-const PaneContent = styled.p`
-  position: relative;
-  font-size: 13px;
-  top: 30px;
-  color: #454545;
-  line-height: 22px;
-`;
-
-const CarouselCont = styled.div`
-  width: 100vw;
-  height: 330px;
-  background-color: #deffe6;
-`;
 
 const WhatPerson = () => {
   return (
@@ -235,3 +180,59 @@ const FourthPane = () => {
     </PaneSection>
   );
 };
+
+const Container = styled.div`
+  font-family: 'Noto Sans KR', sans-serif;
+  display: flex;
+  flex-direction: column;
+  line-height: 22px;
+`;
+
+const TitleBox = styled.span`
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #8e8e8e;
+  font-size: 18px;
+  margin-bottom: 15px;
+`;
+
+const PaneSection = styled.div`
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-left: 60px;
+  padding-top: 35px;
+  clear: both;
+  @media (max-width: 335px) {
+    padding-left: 37px;
+  }
+`;
+
+const PageNum = styled.span`
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  font-size: 12px;
+  color: #a0a0a0;
+  position: relative;
+  left: 2px;
+`;
+
+const PaneTitle = styled.p`
+  position: relative;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #454545;
+  font-weight: 300;
+  font-size: 18px;
+  top: 5px;
+`;
+
+const PaneContent = styled.p`
+  position: relative;
+  font-size: 13px;
+  top: 30px;
+  color: #454545;
+  line-height: 22px;
+`;
+
+const CarouselCont = styled.div`
+  width: 100vw;
+  height: 330px;
+  background-color: #deffe6;
+`;

@@ -3,85 +3,9 @@ import styled from 'styled-components';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
-// import { ReactComponent as CursorUp } from '../../../../assets/cursor_up.svg';
 
-const Container = styled.div`
-  font-family: 'Noto Sans KR', sans-serif;
-  margin-top: 60px;
-  display: flex;
-  flex-direction: column;
-  /* line-height: 1.7; */
-`;
-
-const TitleBox = styled.span`
-  font-family: 'Noto Sans KR', sans-serif;
-  color: #8e8e8e;
-  font-size: 21px;
-  margin-bottom: 25px;
-  letter-spacing: -0.42px;
-  /* line-height: 111px; */
-`;
-
-const PaneSection = styled.div`
-  font-family: 'Noto Sans KR', sans-serif;
-  padding-left: 169px;
-  padding-top: 40px;
-  height: 290px;
-  /* padding-bottom: 80px; */
-  /* clear: both; */
-`;
-
-const PageNum = styled.div`
-  position: relative;
-  left: 3px;
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: 700;
-  padding-bottom: 10px;
-  color: #a0a0a0;
-  line-height: 25px;
-`;
-
-const PaneTitle = styled.div`
-  position: relative;
-  font-family: 'Noto Sans KR', sans-serif;
-  color: #454545;
-  font-weight: 300;
-  font-size: 21px;
-  padding-bottom: 30px;
-  /* top: 5px; */
-`;
-
-const PaneContent = styled.div`
-  width: 500px;
-  height: 138px;
-  color: #454545;
-`;
-
-const DashBox = styled.div`
-  width: 12px;
-  height: 109px;
-  float: left;
-  position: relative;
-  top: 0.6px;
-  color: #454545;
-`;
-
-const TextBox = styled.div`
-  position: relative;
-  left: -10px;
-  line-height: 22px;
-  letter-spacing: -0.3px;
-  font-size: 15px;
-`;
-
-const CarouselCont = styled.div`
-  width: 5000px;
-  height: 290px;
-  background-color: #deffe6;
-`;
 
 // May modulize this below
-
 //importing svg didn't work, i had to hard code the svg
 const CarouselStyle = styled(Slider)`
   width: calc(581px + 101px);
@@ -254,3 +178,78 @@ const WhatPerson = () => {
 };
 
 export default WhatPerson;
+
+const Container = styled.div`
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  /* line-height: 1.7; */
+`;
+
+const TitleBox = styled.span`
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #8e8e8e;
+  font-size: 21px;
+  margin-bottom: 25px;
+  letter-spacing: -0.42px;
+  /* line-height: 111px; */
+`;
+
+const PaneSection = styled.div`
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-left: 169px;
+  padding-top: 40px;
+  height: 290px;
+  /* padding-bottom: 80px; */
+  /* clear: both; */
+`;
+
+const PageNum = styled.div`
+  position: relative;
+  left: 3px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  padding-bottom: 10px;
+  color: #a0a0a0;
+  line-height: 25px;
+`;
+
+const PaneTitle = styled.div`
+  position: relative;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #454545;
+  font-weight: 300;
+  font-size: 21px;
+  padding-bottom: 30px;
+  /* top: 5px; */
+`;
+
+const PaneContent = styled.div`
+  width: 500px;
+  height: 138px;
+  color: #454545;
+`;
+
+const DashBox = styled.div`
+  width: 12px;
+  height: 109px;
+  float: left;
+  position: relative;
+  top: 0.6px;
+  color: #454545;
+`;
+
+const TextBox = styled.div`
+  position: relative;
+  left: -10px;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  font-size: 15px;
+`;
+
+const CarouselCont = styled.div`
+  width: 5000px;
+  height: 290px;
+  background-color: #deffe6;
+`;

@@ -5,52 +5,6 @@ import Highlighter from '../../Modules/Highlighter';
 import MapAPI from './MapAPI';
 import WeWork from './WeWork';
 
-const Container = styled.div`
-  font-family: 'IBM Plex Mono', monospace;
-  /* width: 785px;
-  height: 768px; */
-  padding-top: 80px;
-  color: #8e8e8e;
-`;
-
-const TitleBox = styled.span`
-  font-weight: 500;
-  font-size: 20px;
-  margin-left: 10px;
-`;
-
-const TextBox = styled.div`
-  font-size: 13px;
-  font-weight: 300;
-  color: #454545;
-  display: flex;
-  margin-bottom: 15px;
-  position: relative;
-`;
-
-const MainOffice = styled.div`
-  font-size: 13px;
-  font-weight: 500;
-  /* padding-top: 15px; */
-  color: #8e8e8e;
-`;
-
-const AddressBox = styled.div`
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-  color: #585858;
-  line-height: 21px;
-  margin: 10px 0px 15px 0px;
-`;
-const Indentation = styled.div`
-  margin-left: 10px;
-`;
-
-interface Props {
-  width: string;
-  height: string;
-}
 
 const ContactUs = () => {
   return (
@@ -107,3 +61,45 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+
+const Container = styled.div`
+  font-family: 'IBM Plex Mono', monospace;
+  /* width: 785px;
+  height: 768px; */
+  padding-top: 80px;
+  color: #8e8e8e;
+`;
+
+const TitleBox = styled.span`
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 10px;
+`;
+
+const TextBox = styled.div`
+  font-size: 13px;
+  font-weight: 300;
+  color: #454545;
+  display: flex;
+  margin-bottom: 15px;
+  position: relative;
+`;
+
+const MainOffice = styled.div`
+  font-size: 13px;
+  font-weight: 500;
+  /* padding-top: 15px; */
+  color: #8e8e8e;
+`;
+
+const AddressBox = styled.div`
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #585858;
+  line-height: 21px;
+  margin: 10px 0px 15px 0px;
+`;
+const Indentation = styled.div`
+  margin-left: 10px;
+`;

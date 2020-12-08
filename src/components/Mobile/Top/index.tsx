@@ -5,9 +5,6 @@ import VreviewIs from './VreviewIs';
 import PressBox from './PressBox';
 import HistoryBox from './HistoryBox';
 
-const Container = styled.div`
-  width: 100%;
-`;
 
 const TopSecond = () => {
   return (
@@ -21,3 +18,7 @@ const TopSecond = () => {
 };
 
 export default TopSecond;
+
+const Container = styled.div`
+  width: 100%;
+`;

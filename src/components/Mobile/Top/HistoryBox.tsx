@@ -1,6 +1,33 @@
 import React from 'react';
 import styled from 'styled-components';
 
+
+const HistoryBox = () => {
+  return (
+    <Container>
+      <Title>(History)</Title>
+      <TextBox>
+        <DetailContainer>
+          <DetailDate>2020.05 2020.04</DetailDate>
+          <DetailText>
+            Facebook Accelerator 선정 <br />
+            브이리뷰 위젯 MAU 3,000만 돌파
+          </DetailText>
+        </DetailContainer>
+        <LinkBox
+          target='_blank'
+          rel='noopener noreferrer'
+          href='https://www.notion.so/indent/History-866409d11b194eaba4ae872235339b9c'
+        >
+          더보기 →
+        </LinkBox>
+      </TextBox>
+    </Container>
+  );
+};
+
+export default HistoryBox;
+
 const Container = styled.div`
   padding: 0px 0px 80px 20px;
   font-family: 'IBM Plex Mono', monospace;
@@ -73,29 +100,3 @@ const DetailDate = styled.div`
   letter-spacing: -0.36px;
   margin-right: 20px;
 `;
-
-const HistoryBox = () => {
-  return (
-    <Container>
-      <Title>(History)</Title>
-      <TextBox>
-        <DetailContainer>
-          <DetailDate>2020.05 2020.04</DetailDate>
-          <DetailText>
-            Facebook Accelerator 선정 <br />
-            브이리뷰 위젯 MAU 3,000만 돌파
-          </DetailText>
-        </DetailContainer>
-        <LinkBox
-          target='_blank'
-          rel='noopener noreferrer'
-          href='https://www.notion.so/indent/History-866409d11b194eaba4ae872235339b9c'
-        >
-          더보기 →
-        </LinkBox>
-      </TextBox>
-    </Container>
-  );
-};
-
-export default HistoryBox;

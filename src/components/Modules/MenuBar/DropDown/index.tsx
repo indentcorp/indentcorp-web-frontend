@@ -6,60 +6,6 @@ import useDetectOut from './DetectOut';
 import { ReactComponent as CursorUp } from '../../../../assets/cursor_up.svg';
 import { ReactComponent as CursorDown } from '../../../../assets/cursor_down.svg';
 
-const Container = styled.div`
-  position: fixed;
-  background-color: transparent !important;
-  font-family: 'IBM Plex Mono', monospace;
-  white-space: pre;
-  z-index: 60;
-`;
-const MenuBar = styled.div<{
-  isActive: boolean;
-}>`
-  background-color: ${({ isActive }) => (isActive ? '#efeded' : 'transparent')};
-  display: ${({ isActive }) => (isActive ? 'none' : 'flex')};
-  flex-direction: row;
-  height: ${({ isActive }) => (isActive ? '53px' : '0px')};
-  width: 100vw;
-  color: #454545;
-  opacity: 100%;
-`;
-
-const MenuButton = styled.p`
-  height: 57px;
-  border: none;
-  padding: 16px 30px;
-  margin-right: 155.45px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background-color: transparent !important;
-  font-family: 'IBM Plex Mono', monospace;
-  text-align: left;
-  font-size: 14px;
-  font-weight: 600;
-  opacity: 85%;
-`;
-
-const FirstOption = styled.div`
-  display: flex;
-  width: 100%;
-`;
-
-const NavWrapper = styled.nav``;
-const CursorBox = styled.div``;
-
-const MenuWrapper = styled.ul`
-  width: 100vw;
-  height: 320px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  z-index: 60;
-  padding: 0px 0px 8px 0px;
-  background-color: #efeded;
-  white-space: pre;
-  opacity: 85%;
-`;
 
 export interface Props {
   onClick?: Function;
@@ -214,3 +160,58 @@ const DropDown = ({ selectedRef }: any) => {
 };
 
 export default DropDown;
+
+const Container = styled.div`
+  position: fixed;
+  background-color: transparent !important;
+  font-family: 'IBM Plex Mono', monospace;
+  white-space: pre;
+  z-index: 60;
+`;
+const MenuBar = styled.div<{
+  isActive: boolean;
+}>`
+  background-color: ${({ isActive }) => (isActive ? '#efeded' : 'transparent')};
+  display: ${({ isActive }) => (isActive ? 'none' : 'flex')};
+  flex-direction: row;
+  height: ${({ isActive }) => (isActive ? '53px' : '0px')};
+  width: 100vw;
+  color: #454545;
+  opacity: 100%;
+`;
+
+const MenuButton = styled.p`
+  height: 57px;
+  border: none;
+  padding: 16px 30px;
+  margin-right: 155.45px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: transparent !important;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 85%;
+`;
+
+const FirstOption = styled.div`
+  display: flex;
+  width: 100%;
+`;
+
+const NavWrapper = styled.nav``;
+const CursorBox = styled.div``;
+
+const MenuWrapper = styled.ul`
+  width: 100vw;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 60;
+  padding: 0px 0px 8px 0px;
+  background-color: #efeded;
+  white-space: pre;
+  opacity: 85%;
+`;

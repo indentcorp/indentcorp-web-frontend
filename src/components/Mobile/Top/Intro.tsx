@@ -2,41 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import Highlighter from '../../Modules/Highlighter';
 
-const Container = styled.div`
-  display: flex;
-  line-height: 1.7;
-  margin-left: 91px;
-  font-size: 13px;
-  height: 447px;
-  background-color: #efeded;
-  position: absolute;
-  right: 0px;
-  padding-right: 30px;
-  @media (max-width: 335px) {
-    padding-right: 18px;
-  }
-`;
-
-const Section = styled.div`
-  position: relative;
-  margin: 90px 0px 52px 77px;
-  height: 265px;
-  @media (max-width: 335px) {
-    margin: 90px 0px 52px 53px;
-  }
-`;
-
-const TextBox = styled.div`
-  margin-top: -311px;
-`;
-
-const Content = styled.p`
-  position: relative;
-  letter-spacing: -0.26px;
-  color: #454545;
-  z-index: 2;
-  white-space: pre;
-`;
 
 const Intro = () => {
   return (
@@ -86,3 +51,39 @@ const Intro = () => {
 };
 
 export default Intro;
+
+const Container = styled.div`
+  display: flex;
+  line-height: 1.7;
+  margin-left: 91px;
+  font-size: 13px;
+  height: 447px;
+  background-color: #efeded;
+  position: absolute;
+  right: 0px;
+  padding-right: 30px;
+  @media (max-width: 335px) {
+    padding-right: 18px;
+  }
+`;
+
+const Section = styled.div`
+  position: relative;
+  margin: 90px 0px 52px 77px;
+  height: 265px;
+  @media (max-width: 335px) {
+    margin: 90px 0px 52px 53px;
+  }
+`;
+
+const TextBox = styled.div`
+  margin-top: -311px;
+`;
+
+const Content = styled.p`
+  position: relative;
+  letter-spacing: -0.26px;
+  color: #454545;
+  z-index: 2;
+  white-space: pre;
+`;
