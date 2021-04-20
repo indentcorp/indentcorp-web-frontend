@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react'
-
+/*global kakao*/
+import React, { useEffect } from 'react';
+import useScript from './useScript'
 declare global {
   interface Window {
     kakao: any
@@ -7,18 +8,24 @@ declare global {
 }
 
 interface Props {
-  width: number
-  height: number
+  width: number;
+  height: number;
 }
 
+// const API_KEY = process.env.REACT_APP_KAKAO_MAP_KEY;
+
+// console.log('API_KEY', API_KEY)
 const MapAPI: React.FC = () => {
+  useScript(`https://dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.REACT_APP_KAKAO_MAP_KEY}&libraries=services&autoload=false`);
   useEffect(() => {
-    const script = document.createElement('script')
-    script.async = true
-    script.src =
-      'https://dapi.kakao.com/v2/maps/sdk.js?appkey=6b5d5dbba0bbf3301e96a08a88f3d612&libraries=services&autoload=false'
-    document.head.appendChild(script)
-    let container = document.getElementById('map')
+    // const script = document.createElement("script");
+    // script.type = "text/javascript";
+    // script.async = true;
+    // script.src =
+    //   `https://dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.REACT_APP_KAKAO_MAP_KEY}&libraries=services&autoload=false`;
+    // // `https://dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.REACT_APP_KAKAO_MAP_KEY}`;
+    // document.body.appendChild(script);
+    let container = document.getElementById('map');
     let options = {
       center: new window.kakao.maps.LatLng(37.5467145, 127.0451214),
       level: 3,

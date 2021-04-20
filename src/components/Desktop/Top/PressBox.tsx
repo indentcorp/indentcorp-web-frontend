@@ -1,6 +1,29 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const PressBox = () => {
+  return (
+    <Container>
+      <Title>(Press)</Title>
+      <TextBox>
+        <DetailTitle>
+          벤처스퀘어 <DetailDate>2020. 05.</DetailDate>
+        </DetailTitle>
+        <DetailSentence>구매 전환율 끌어올린 '동영상 후기'의 힘</DetailSentence>
+        <LinkBox
+          target='_blank'
+          rel='noopener noreferrer'
+          href='https://www.notion.so/indent/Press-cae202ba33a346d092fb15c58408d03c'
+        >
+          더보기 →
+        </LinkBox>
+      </TextBox>
+    </Container>
+  );
+};
+
+export default PressBox;
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -63,26 +86,3 @@ const DetailSentence = styled.div`
   font-size: 15px;
   padding-bottom: 15px;
 `;
-
-const PressBox = () => {
-  return (
-    <Container>
-      <Title>(Press)</Title>
-      <TextBox>
-        <DetailTitle>
-          벤처스퀘어 <DetailDate>2020. 05.</DetailDate>
-        </DetailTitle>
-        <DetailSentence>구매 전환율 끌어올린 '동영상 후기'의 힘</DetailSentence>
-        <LinkBox
-          target='_blank'
-          rel='noopener noreferrer'
-          href='https://www.notion.so/indent/Press-cae202ba33a346d092fb15c58408d03c'
-        >
-          더보기 →
-        </LinkBox>
-      </TextBox>
-    </Container>
-  );
-};
-
-export default PressBox;

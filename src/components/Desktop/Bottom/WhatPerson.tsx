@@ -16,46 +16,6 @@ const WhatPerson = () => {
 
 export default WhatPerson;
 
-// May modulize this below
-
-//importing svg didn't work, i had to hard code the svg
-const CarouselStyle = styled(Slider)`
-  width: calc(581px + 101px);
-  /* width: 780px; */
-  .slick-prev::before {
-    font-family: 'IBM Plex Mono SemiBold', monospace;
-    font-size: 100px;
-    color: #afffd4;
-  }
-  .slick-next::before {
-    font-size: 100px;
-    color: #afffd4;
-  }
-  .slick-prev {
-    z-index: 2;
-    left: 50px;
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='51' height='48.348' viewBox='0 0 51 48.348'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bisolation:isolate;%7D.b%7Bfill:%23afffd4;%7D%3C/style%3E%3C/defs%3E%3Cg class='a' transform='translate(0)'%3E%3Cg class='a'%3E%3Cpath class='b' d='M255,260.192l-21.418-18.025v-12.3L255,211.844l4.135,8.905-14.314,15.269,14.314,15.267Zm25.447,0-21.418-18.025v-12.3l21.418-18.025,4.135,8.905-14.314,15.269,14.314,15.267Z' transform='translate(-233.582 -211.844)'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  }
-  .slick-next {
-    z-index: 2;
-    right: 25px;
-  }
-  .slick-list {
-    height: 290px;
-  }
-`;
-
-const ArrowSettings = {
-  display: 'flex',
-  width: '60px',
-  height: '128px',
-  top: '143px',
-  right: '0px',
-  responsive: [
-    { breakpoint: 780, settings: 'unslick' },
-    { breakpoint: 1, settings: 'unslick' },
-  ],
-};
 
 function NextArrow(props: any) {
   const { className, style, onClick } = props;
@@ -171,6 +131,19 @@ const FourthPane = () => {
   );
 };
 
+
+const ArrowSettings = {
+  display: 'flex',
+  width: '60px',
+  height: '128px',
+  top: '143px',
+  right: '0px',
+  responsive: [
+    { breakpoint: 780, settings: 'unslick' },
+    { breakpoint: 1, settings: 'unslick' },
+  ],
+};
+
 const Container = styled.div`
   font-family: 'Noto Sans KR', sans-serif;
   margin-top: 91px;
@@ -228,4 +201,33 @@ const CarouselCont = styled.div`
   width: 5000px;
   height: 290px;
   background-color: #deffe6;
+`;
+
+// May modulize this below
+
+//importing svg didn't work, i had to hard code the svg
+const CarouselStyle = styled(Slider)`
+  width: calc(581px + 101px);
+  /* width: 780px; */
+  .slick-prev::before {
+    font-family: 'IBM Plex Mono SemiBold', monospace;
+    font-size: 100px;
+    color: #afffd4;
+  }
+  .slick-next::before {
+    font-size: 100px;
+    color: #afffd4;
+  }
+  .slick-prev {
+    z-index: 2;
+    left: 50px;
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='51' height='48.348' viewBox='0 0 51 48.348'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bisolation:isolate;%7D.b%7Bfill:%23afffd4;%7D%3C/style%3E%3C/defs%3E%3Cg class='a' transform='translate(0)'%3E%3Cg class='a'%3E%3Cpath class='b' d='M255,260.192l-21.418-18.025v-12.3L255,211.844l4.135,8.905-14.314,15.269,14.314,15.267Zm25.447,0-21.418-18.025v-12.3l21.418-18.025,4.135,8.905-14.314,15.269,14.314,15.267Z' transform='translate(-233.582 -211.844)'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  .slick-next {
+    z-index: 2;
+    right: 25px;
+  }
+  .slick-list {
+    height: 290px;
+  }
 `;

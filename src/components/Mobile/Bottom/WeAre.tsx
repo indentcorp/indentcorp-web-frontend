@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import TeamData from '../../Modules/TeamData';
+import TeamData from '../../Modules/TeamData/TeamData';
 
 interface Items {
   id: string;

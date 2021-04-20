@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import * as Content from '../../Contents'
 
 const Container = styled.div`
   /* display: inline; */

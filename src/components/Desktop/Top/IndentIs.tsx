@@ -1,6 +1,36 @@
 import React from 'react';
 import styled from 'styled-components';
-import Highlighter from '../../Modules/Highlighter';
+import Highlighter from '../../Modules/Highlighter/Highlighter';
+
+
+const IndentIs = () => {
+  return (
+    <Container>
+      <Title>[indent corp.]</Title>
+      <TextBox>
+        <Highlighter
+          highlightColor={'#FFFEAF'}
+          highlightWidth={'15px'}
+          highlightHeight={'133px'}
+          top={'-3px'}
+          zIndex={-1}
+        />
+        <Text>
+          <FirstSentence>인덴트코퍼레이션은</FirstSentence>
+          <Numbering>1.</Numbering> 미래를 예측하고
+          <br />
+          <Numbering>2.</Numbering> 현재를 활용하여
+          <br />
+          <Numbering>3.</Numbering> 시장을 혁신합니다.
+          <br />
+        </Text>
+      </TextBox>
+    </Container>
+  );
+};
+
+export default IndentIs;
+
 
 const Container = styled.div`
   display: flex;
@@ -48,31 +78,3 @@ const FirstSentence = styled.div`
   line-height: 17px;
   padding-bottom: 20px;
 `;
-
-const IndentIs = () => {
-  return (
-    <Container>
-      <Title>[indent corp.]</Title>
-      <TextBox>
-        <Highlighter
-          highlightColor={'#FFFEAF'}
-          highlightWidth={'15px'}
-          highlightHeight={'133px'}
-          top={'-3px'}
-          zIndex={-1}
-        />
-        <Text>
-          <FirstSentence>인덴트코퍼레이션은</FirstSentence>
-          <Numbering>1.</Numbering> 미래를 예측하고
-          <br />
-          <Numbering>2.</Numbering> 현재를 활용하여
-          <br />
-          <Numbering>3.</Numbering> 시장을 혁신합니다.
-          <br />
-        </Text>
-      </TextBox>
-    </Container>
-  );
-};
-
-export default IndentIs;

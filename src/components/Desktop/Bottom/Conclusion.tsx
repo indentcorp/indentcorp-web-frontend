@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Highlighter from '../../Modules/Highlighter';
+import Highlighter from '../../Modules/Highlighter/Highlighter';
 
 
 const Conclusion = () => {
@@ -47,7 +47,7 @@ const GlyphBox = styled.p`
   font-family: 'IBM Plex Mono', monospace;
   font-size: 18px;
   color: #8e8e8e;
-  margin-bottom: 20px; /* line-height: 111px; */
+  margin-bottom: 20px;
 `;
 
 const Indentation = styled.div`

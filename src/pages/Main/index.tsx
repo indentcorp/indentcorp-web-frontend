@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Mobile from '../../components/Mobile';
-import Desktop from '../../components/Desktop';
+import Mobile from '../../components/Mobile/Top';
+import Desktop from '../../components/Desktop/Desktop';
 
 declare global {
   interface Window {

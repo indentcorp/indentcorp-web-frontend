@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Titles } from '../index';
+import { Titles } from '../MenuBar';
 
 const Container = styled.div`
   display: flex;

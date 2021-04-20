@@ -1,21 +1,21 @@
 import React, { useRef, useState, useEffect } from 'react';
 import styled from 'styled-components';
-import DropDown from '../../components/Modules/MenuBar/DropDown';
-import Intro from '../../components/Mobile/Top/Intro';
-import BoldIndent from '../../components/Mobile/Top/BoldIndent';
-import IndentIs from '../../components/Mobile/Top/IndentIs';
-import VreviewIs from '../../components/Mobile/Top/VreviewIs';
-import PressBox from '../../components/Mobile/Top/PressBox';
-import HistoryBox from '../../components/Mobile/Top/HistoryBox';
-import Culture from '../../components/Mobile/Bottom/Culture';
-import WhatPerson from '../../components/Mobile/Bottom/WhatPerson';
-import WorkEnv from '../../components/Mobile/Bottom/WorkEnv';
-import Recruit from '../../components/Mobile/Bottom/Recruit';
-import WeAre from '../../components/Mobile/Bottom/WeAre';
-import ContactUs from '../../components/Mobile/Bottom/ContactUs';
-import Conclusion from '../../components/Mobile/Bottom/Conclusion';
-import Border from '../../components/Modules/Border';
-import Footer from './Footer';
+import DropDown from '../Modules/MenuBar/DropDown/DropDown';
+import Intro from './Top/Intro';
+import BoldIndent from './Top/BoldIndent';
+import IndentIs from './Top/IndentIs';
+import VreviewIs from './Top/VreviewIs';
+import PressBox from './Top/PressBox';
+import HistoryBox from './Top/HistoryBox';
+import Culture from './Bottom/Culture';
+import WhatPerson from './Bottom/WhatPerson';
+import WorkEnv from './Bottom/WorkEnv';
+import Recruit from './Bottom/Recruit';
+import WeAre from './Bottom/WeAre';
+import ContactUs from './Bottom/ContactUs';
+import Conclusion from './Bottom/Conclusion';
+import Border from '../Modules/Border/Border';
+import Footer from './Footer/Footer';
 
 const Container = styled.div`
   overflow-x: hidden;

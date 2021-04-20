@@ -1,21 +1,21 @@
 import React, { useRef, useState, useEffect } from 'react';
 import styled from 'styled-components';
-import SideBar from '../../components/Modules/MenuBar/SideBar';
-import Intro from '../../components/Desktop/Top/Intro';
-import BoldIndent from '../../components/Desktop/Top/BoldIndent';
-import IndentIs from '../../components/Desktop/Top/IndentIs';
-import VreviewIs from '../../components/Desktop/Top/VreviewIs';
-import PressBox from '../../components/Desktop/Top/PressBox';
-import HistoryBox from '../../components/Desktop/Top/HistoryBox';
-import Culture from '../../components/Desktop/Bottom/Culture';
-import WhatPerson from '../../components/Desktop/Bottom/WhatPerson';
-import WorkEnv from '../../components/Desktop/Bottom/WorkEnv';
-import Recruit from '../../components/Desktop/Bottom/Recruit';
-import WeAre from '../../components/Desktop/Bottom/WeAre';
-import ContactUs from '../../components/Desktop/Bottom/ContactUs';
-import Conclusion from '../../components/Desktop/Bottom/Conclusion';
-import Border from '../../components/Modules/Border';
-import Footer from '../Desktop/Footer';
+import SideBar from '../Modules/MenuBar/SideBar/SideBar';
+import Intro from './Top/Intro';
+import BoldIndent from './Top/BoldIndent';
+import IndentIs from './Top/IndentIs';
+import VreviewIs from './Top/VreviewIs';
+import PressBox from './Top/PressBox';
+import HistoryBox from './Top/HistoryBox';
+import Culture from './Bottom/Culture';
+import WhatPerson from './Bottom/WhatPerson';
+import WorkEnv from './Bottom/WorkEnv';
+import Recruit from './Bottom/Recruit';
+import WeAre from './Bottom/WeAre';
+import ContactUs from './Bottom/ContactUs';
+import Conclusion from './Bottom/Conclusion';
+import Border from '../Modules/Border/Border';
+import Footer from './Footer/Footer';
 
 const Section = styled.div`
   width: 100%;

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Highlighter from '../../Modules/Highlighter';
+import Highlighter from '../../Modules/Highlighter/Highlighter';
 
 const Container = styled.div`
   display: flex;

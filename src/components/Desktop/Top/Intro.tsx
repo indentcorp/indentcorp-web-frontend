@@ -1,36 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Highlighter from '../../Modules/Highlighter';
+import Highlighter from '../../Modules/Highlighter/Highlighter';
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  line-height: 30px;
-  margin-left: 335px;
-  font-size: 17px;
-  width: 473px;
-  height: 423px;
-  background-color: #efeded;
-`;
-
-const Section = styled.div`
-  position: relative;
-  margin: 90px 45px 68px 53px;
-  width: 375px;
-  height: 265px;
-`;
-
-const TextBox = styled.div`
-  margin-top: -270px;
-`;
-const Content = styled.p`
-  position: relative;
-  letter-spacing: -0.3px;
-  color: #454545;
-  z-index: 2;
-`;
 
 const Intro = () => {
   return (
@@ -68,3 +39,33 @@ const Intro = () => {
 };
 
 export default Intro;
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  line-height: 30px;
+  margin-left: 335px;
+  font-size: 17px;
+  width: 473px;
+  height: 423px;
+  background-color: #efeded;
+`;
+
+const Section = styled.div`
+  position: relative;
+  margin: 90px 45px 68px 53px;
+  width: 375px;
+  height: 265px;
+`;
+
+const TextBox = styled.div`
+  margin-top: -270px;
+`;
+const Content = styled.p`
+  position: relative;
+  letter-spacing: -0.3px;
+  color: #454545;
+  z-index: 2;
+`;
