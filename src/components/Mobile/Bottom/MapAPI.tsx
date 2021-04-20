@@ -12,7 +12,7 @@ interface Props {
 }
 
 const MapAPI: React.FC = () => {
-  useEffect(() => {
+  // useEffect(() => {
     // const script = document.createElement('script')
     // script.async = true
     // script.src =
@@ -48,7 +48,7 @@ const MapAPI: React.FC = () => {
     //     map.setCenter(coords)
     //   }
     // })
-  }, [])
+  // }, [])
 
   return (
     // <div className="MapAPI">

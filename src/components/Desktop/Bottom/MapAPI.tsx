@@ -67,8 +67,8 @@ declare global {
 //   );
 // }
 
-const MapAPI: React.FC = () => {
-  useEffect(() => {
+const MapAPI = () => {
+  // useEffect(() => {
     // let container = document.getElementById('map');
     // let options = {
     //   center: new window.kakao.maps.LatLng(37.5467145, 127.0451214),
@@ -104,7 +104,7 @@ const MapAPI: React.FC = () => {
     //     map.setCenter(coords);
     //   }
     // });
-  }, []);
+  // }, []);
 
   return (
     // <div className='MapAPI'>
