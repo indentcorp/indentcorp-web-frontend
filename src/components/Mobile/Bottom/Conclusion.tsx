@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Highlighter from '../../Modules/Highlighter';
+import Highlighter from '../../Modules/Highlighter/Highlighter';
 
 
 const Conclusion = () => {
@@ -30,7 +30,6 @@ const Conclusion = () => {
 export default Conclusion;
 
 const Container = styled.div`
-  /* margin-top: 20px; */
   margin-bottom: 100px;
 `;
 

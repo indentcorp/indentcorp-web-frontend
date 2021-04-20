@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Border from '../../Modules/Border';
-import Highlighter from '../../Modules/Highlighter';
+import Border from '../../Modules/Border/Border';
+import Highlighter from '../../Modules/Highlighter/Highlighter';
 
 const Recruit = () => {
   return (

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import MenuOption from '../Components/MenuOption';
-import { Titles, MenuList } from '../index';
+import { Titles, MenuList } from '../MenuBar';
 
 const Container = styled.div`
   position: fixed;

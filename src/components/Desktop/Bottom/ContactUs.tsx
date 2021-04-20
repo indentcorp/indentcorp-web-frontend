@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import Border from '../../Modules/Border';
-import Highlighter from '../../Modules/Highlighter';
+import Border from '../../Modules/Border/Border';
+import Highlighter from '../../Modules/Highlighter/Highlighter';
 import WeWork from './WeWork';
-import MapAPI from '../../Modules/MapAPI';
+import MapAPI from './MapAPI';
 
 
 const ContactUs = () => {
@@ -47,8 +47,8 @@ const ContactUs = () => {
         <BorderMargin>
           <MainOffice>Main Office</MainOffice>
           <AddressBox>
-            서울시 성동구 왕십리로10길 6 <br />
-            서울숲 비즈포레 805호
+            서울특별시 성동구 성수동2가 269-63,<br />
+            성수에이원센터 507호
           </AddressBox>
           <MapAPI />
         </BorderMargin>

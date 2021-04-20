@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import styled from 'styled-components';
 import MenuOption from '../Components/MenuOption';
-import { Titles, MenuList } from '../index';
+import { Titles, MenuList } from '../MenuBar';
 import useDetectOut from './DetectOut';
 import { ReactComponent as CursorUp } from '../../../../assets/cursor_up.svg';
 import { ReactComponent as CursorDown } from '../../../../assets/cursor_down.svg';

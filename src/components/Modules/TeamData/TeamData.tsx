@@ -34,17 +34,6 @@ const TeamData = {
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/sh2_mod_200k.mp4',
     },
     {
-      id: 'Clara',
-      position: 'Dog',
-      blogLink: null,
-      ghLink: null,
-      gridArea: 'auto',
-      poster:
-        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/clara_still.jpg',
-      videoSrc:
-        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/clara_mov_200k.mp4',
-    },
-    {
       id: 'Gyunho',
       position: 'Operator',
       blogLink: null,
@@ -67,17 +56,6 @@ const TeamData = {
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/khh_200k.mp4',
     },
     {
-      id: 'Jack',
-      position: 'Come Back !',
-      blogLink: null,
-      ghLink: null,
-      gridArea: 'auto',
-      poster:
-        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/jack_still.jpg',
-      videoSrc:
-        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/jack_mov_200k.mp4',
-    },
-    {
       id: 'Jen',
       position: 'CX Designer',
       blogLink: null,
@@ -87,17 +65,6 @@ const TeamData = {
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/jy_mov_200k.jpg',
       videoSrc:
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/jy_mov_200k.mp4',
-    },
-    {
-      id: 'MC',
-      position: 'Sales Manager',
-      blogLink: null,
-      ghLink: null,
-      gridArea: 'auto',
-      poster:
-        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/ljh_200k.jpg',
-      videoSrc:
-        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/ljh_200k.mp4',
     },
     {
       id: 'Morgan',

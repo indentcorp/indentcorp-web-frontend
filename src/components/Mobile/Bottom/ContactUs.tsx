@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Border from '../../Modules/Border';
-import Highlighter from '../../Modules/Highlighter';
+import Border from '../../Modules/Border/Border';
+import Highlighter from '../../Modules/Highlighter/Highlighter';
 import MapAPI from './MapAPI';
 import WeWork from './WeWork';
 
@@ -41,16 +41,9 @@ const ContactUs = () => {
         <Indentation style={{ position: 'relative', top: '-25px' }}>
           <Indentation>
             <MainOffice>Main Office</MainOffice>
-            {/* <Highlighter
-              highlightColor={'#E6E6E6'}
-              highlightWidth={'14px'}
-              highlightHeight={'65px'}
-              margin={'10px -9px -76px -1px'}
-              zIndex={-1}
-            /> */}
             <AddressBox>
-              서울시 성동구 왕십리로10길 6 <br />
-              서울숲 비즈포레 805호
+              서울특별시 성동구 성수동2가 269-63,<br />
+              성수에이원센터 507호
             </AddressBox>
             <MapAPI />
           </Indentation>
@@ -64,8 +57,6 @@ export default ContactUs;
 
 const Container = styled.div`
   font-family: 'IBM Plex Mono', monospace;
-  /* width: 785px;
-  height: 768px; */
   padding-top: 80px;
   color: #8e8e8e;
 `;
@@ -88,7 +79,6 @@ const TextBox = styled.div`
 const MainOffice = styled.div`
   font-size: 13px;
   font-weight: 500;
-  /* padding-top: 15px; */
   color: #8e8e8e;
 `;
 
