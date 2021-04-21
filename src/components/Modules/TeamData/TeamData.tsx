@@ -81,7 +81,7 @@ const TeamData = {
       id: 'Taetae',
       position: 'S/W Engineer',
       blogLink: null,
-      ghLink: 'https://github.com/taeyeon47',
+      ghLink: 'https://github.com/devtenny',
       gridArea: 'auto',
       poster:
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/taeyeon.jpg',

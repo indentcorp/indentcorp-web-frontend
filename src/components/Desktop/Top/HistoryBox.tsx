@@ -1,12 +1,32 @@
 import React from 'react';
 import styled from 'styled-components';
-import * as Content from '../../Contents'
+
+
+const HistoryBox = () => {
+  return (
+    <Container>
+      <Title>(History)</Title>
+      <TextBox>
+        <DetailContainer>
+          <DetailDate>2020.05 2020.04</DetailDate>
+          <DetailText>
+            Facebook Accelerator 선정 <br />
+            브이리뷰 위젯 MAU 3,000만 돌파
+          </DetailText>
+        </DetailContainer>
+        <LinkBox
+          target='_blank'
+          rel='noopener noreferrer'
+          href='https://www.notion.so/indent/History-866409d11b194eaba4ae872235339b9c'
+        >
+          더보기 →
+        </LinkBox>
+      </TextBox>
+    </Container>
+  );
+};
 
 const Container = styled.div`
-  /* display: inline; */
-  /* display: flex;
-  flex-direction: column; */
-  /* line-height: 1.7; */
   padding-top: 42px;
   padding-left: 15px;
   margin-left: 15px;
@@ -26,10 +46,6 @@ const Title = styled.span`
 
 const TextBox = styled.div`
   z-index: 1;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
-  /* display: inline; */
   background: #efeded;
   height: 165px;
   width: 618px;
@@ -42,7 +58,6 @@ const LinkBox = styled.a`
   color: #454545;
   font-size: 15px;
   font-weight: 400;
-  /* line-height: 45px; */
   text-decoration: underline;
   a:hover {
     color: #454545;
@@ -80,29 +95,5 @@ const DetailContainer = styled.div`
   line-height: 34px;
   padding-top: 46.5px;
 `;
-
-const HistoryBox = () => {
-  return (
-    <Container>
-      <Title>(History)</Title>
-      <TextBox>
-        <DetailContainer>
-          <DetailDate>2020.05 2020.04</DetailDate>
-          <DetailText>
-            Facebook Accelerator 선정 <br />
-            브이리뷰 위젯 MAU 3,000만 돌파
-          </DetailText>
-        </DetailContainer>
-        <LinkBox
-          target='_blank'
-          rel='noopener noreferrer'
-          href='https://www.notion.so/indent/History-866409d11b194eaba4ae872235339b9c'
-        >
-          더보기 →
-        </LinkBox>
-      </TextBox>
-    </Container>
-  );
-};
 
 export default HistoryBox;
