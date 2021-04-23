@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Border from '../../Modules/Border/Border';
 import Highlighter from '../../Modules/Highlighter/Highlighter';
 import WeWork from './WeWork';
-import MapAPI from './MapAPI';
+import MapAPI from '../../Modules/Map/MapAPI';
 
 
 const ContactUs = () => {
