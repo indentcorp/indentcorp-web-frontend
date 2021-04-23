@@ -28,7 +28,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "postbuild": "react-snap",
-    "deploy": "aws s3 sync build/ s3://indentcorp.com",
+    "deploy": "aws s3 sync build/ s3://indentcorp.com --delete",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "tslint-check": "tslint-config-prettier-check ./tslint.json",
