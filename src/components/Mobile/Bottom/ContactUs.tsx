@@ -9,7 +9,7 @@ const ContactUs = () => {
   return (
     <Container>
       <TitleBox>[@ contact us]</TitleBox>
-      <Border height={"427px"} margin={"40px 0px -427px 10px"} top={"-2px"} />
+      <Border height={"557px"} margin={"40px 0px -557px 10px"} top={"-2px"} />
       <Indentation>
         <Indentation>
           <TextBox>

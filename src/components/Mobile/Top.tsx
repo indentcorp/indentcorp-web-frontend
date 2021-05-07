@@ -69,8 +69,8 @@ const Main = () => {
       <TopColor>
         <Border
           position={'relative'}
-          margin={'0px 0px -6217px 10px'}
-          height={'6217px'}
+          margin={'0px 0px -5935px 10px'}
+          height={'5935px'}
           margin360={'0px 0px -6106px 10px'}
           height360={'6106px'}
           margin335={'0px 0px -5992px 10px'}

@@ -49,6 +49,7 @@ const GlyphBox = styled.p`
   font-size: 13px;
   color: #8e8e8e;
   margin-bottom: 20px;
+  margin-left: 5px;
 `;
 
 const Indentation = styled.div`

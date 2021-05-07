@@ -9,7 +9,7 @@ const Footer = () => (
       <FooterText>(주)인덴트코퍼레이션 | 대표: 윤태석</FooterText>
       <FooterText>연락처: contact@indentcorp.com</FooterText>
       <FooterText>사업자 등록번호: 677-87-01299</FooterText>
-      <FooterText>주소: 서울특별시 성동구 왕십리로10길 6 805호</FooterText>
+      <FooterText>주소: 서울특별시 성동구 성수동2가 269-63, 성수에이원센터 507호</FooterText>
       <FooterText>전화번호: 02-536-3474</FooterText>
       <FooterText>© Indent corp.</FooterText>
     </Content>
@@ -25,6 +25,8 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   padding: 40px 0;
+  display: relative;
+  z-index: 11;
 `;
 
 const Content = styled.div`
