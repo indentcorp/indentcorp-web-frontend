@@ -12,7 +12,7 @@ const Footer = () => (
         사업자 등록번호: 677-87-01299
       </FooterText>
       <FooterText>
-        주소: 서울특별시 성동구 왕십리로10길 6 805호 | 전화번호: 02-536-3474
+        주소: 서울특별시 성동구 성수동2가 269-63, 성수에이원센터 507호 | 전화번호: 02-536-3474
       </FooterText>
       <FooterText>© Indent corp.</FooterText>
     </Content>
