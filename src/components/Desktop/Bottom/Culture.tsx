@@ -9,7 +9,7 @@ const Culture = () => {
     <Container>
       <TitleBox>[◊ indenter’s culture]</TitleBox>
       <TextBox>
-        <Border margin={'0px 0px -3787px 15px'} height={'3787px'} />
+        <Border margin={'0px 0px -3787px 15px'} height={'3625px'} />
         <DetailBox>
           <Highlighter
             highlightColor={'#DEFFE6'}

@@ -29,6 +29,8 @@ const Container = styled.div`
   justify-content: initial;
   padding: 40px;
   padding-left: 127px;
+  position: relative;
+  z-index: 11;
 `;
 
 const Content = styled.div`

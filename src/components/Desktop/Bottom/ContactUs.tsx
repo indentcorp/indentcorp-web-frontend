@@ -12,8 +12,8 @@ const ContactUs = () => {
       <TitleBox>[@ contact us]</TitleBox>
       <WeWork />
       <Border
-        height={'537px'}
-        margin={'60px 0px -537px 0px'}
+        height={'606px'}
+        margin={'60px 0px -601px 0px'}
         padding={'0px 15px 0px 0px'}
       />
       <BorderMargin>

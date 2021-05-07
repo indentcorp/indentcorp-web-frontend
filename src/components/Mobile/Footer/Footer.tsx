@@ -25,6 +25,8 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   padding: 40px 0;
+  display: relative;
+  z-index: 11;
 `;
 
 const Content = styled.div`
