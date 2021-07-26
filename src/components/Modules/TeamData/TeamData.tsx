@@ -78,7 +78,7 @@ const TeamData = {
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/ts_mov_200k.mp4',
     },
     {
-      id: 'Taetae',
+      id: 'Tenny',
       position: 'S/W Engineer',
       blogLink: null,
       ghLink: 'https://github.com/devtenny',
