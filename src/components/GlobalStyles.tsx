@@ -24,7 +24,6 @@ const GlobalStyles = createGlobalStyle`
         color: black;
         overflow-x: hidden;
     }
-
 `;
 
 export default GlobalStyles;
