@@ -21,13 +21,18 @@ const MapAPI: React.FC<Props> = ({ width, height, styles }) => {
   const latitude = 37.5407049;
   const longitude = 127.0595125;
   useEffect(() => {
+    const script = document.createElement('script');
+    script.type = "text/javascript"
+    script.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.REACT_APP_KAKAO_MAP_KEY}&autoload=false`
+    document.head.appendChild(script);
+    script.onload = () => {
+      window?.kakao.maps.load(() => {
     let mapContainer = document.getElementById("map"),
       mapOption = {
         center: new window.kakao.maps.LatLng(latitude, longitude),
         draggable: false,
         level: 3,
       };
-
     let map = new window.kakao.maps.Map(mapContainer, mapOption);
     let zoomControl = new window.kakao.maps.ZoomControl();
     map.addControl(zoomControl, window.kakao.maps.ControlPosition.RIGHT);
@@ -44,6 +49,9 @@ const MapAPI: React.FC<Props> = ({ width, height, styles }) => {
       content: iwContent,
     });
     infowindow.open(map, marker);
+  });
+  }
+    return () => script.remove()
   }, []);
 
   return (
