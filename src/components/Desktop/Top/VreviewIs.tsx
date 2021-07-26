@@ -135,22 +135,11 @@ const VreviewIs = () => {
             textColor='#FF9A71'
             target='_blank'
             rel='noopener noreferrer'
-            href='https://vreview.tv'
+            href='https://business.vreview.tv/'
           >
-            vreview ↗
+            vreview business ↗
           </LinkBox>
-          <LinkSentence>동영상리뷰 플랫폼 서비스</LinkSentence>
-        </LinkText>
-        <LinkText>
-          <LinkBox
-            textColor='#4D5A7D'
-            target='_blank'
-            rel='noopener noreferrer'
-            href='https://business.vreview.tv/ko/enterprise'
-          >
-            vreview-x ↗
-          </LinkBox>
-          <LinkSentence>통합 리뷰 플랫폼 서비스</LinkSentence>
+          <LinkSentence>B2B 리뷰 시스템 패키지 서비스</LinkSentence>
         </LinkText>
       </Links>
     </>

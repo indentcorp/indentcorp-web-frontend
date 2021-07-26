@@ -20,7 +20,7 @@ export default BoldIndent;
 
 const Container = styled.div`
   position: relative;
-  margin-top: 287px;
+  margin-top: -159px;
   font-size: 36px;
   color: #fffeaf;
   text-align: left;
@@ -28,5 +28,4 @@ const Container = styled.div`
   font-weight: 500;
   line-height: 52px;
   margin-left: 20px;
-  /* margin-bottom: 80px; */
 `;

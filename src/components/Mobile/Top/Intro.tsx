@@ -59,7 +59,7 @@ const Container = styled.div`
   font-size: 13px;
   height: 447px;
   background-color: #efeded;
-  position: absolute;
+  position: relative;
   right: 0px;
   padding-right: 30px;
   @media (max-width: 335px) {

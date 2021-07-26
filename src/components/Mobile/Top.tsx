@@ -1,21 +1,21 @@
-import React, { useRef, useState, useEffect } from 'react';
-import styled from 'styled-components';
-import DropDown from '../Modules/MenuBar/DropDown/DropDown';
-import Intro from './Top/Intro';
-import BoldIndent from './Top/BoldIndent';
-import IndentIs from './Top/IndentIs';
-import VreviewIs from './Top/VreviewIs';
-import PressBox from './Top/PressBox';
-import HistoryBox from './Top/HistoryBox';
-import Culture from './Bottom/Culture';
-import WhatPerson from './Bottom/WhatPerson';
-import WorkEnv from './Bottom/WorkEnv';
-import Recruit from './Bottom/Recruit';
-import WeAre from './Bottom/WeAre';
-import ContactUs from './Bottom/ContactUs';
-import Conclusion from './Bottom/Conclusion';
-import Border from '../Modules/Border/Border';
-import Footer from './Footer/Footer';
+import React, { useEffect, useRef, useState } from "react";
+import styled from "styled-components";
+import Border from "../Modules/Border/Border";
+import DropDown from "../Modules/MenuBar/DropDown/DropDown";
+import Conclusion from "./Bottom/Conclusion";
+import ContactUs from "./Bottom/ContactUs";
+import Culture from "./Bottom/Culture";
+import Recruit from "./Bottom/Recruit";
+import WeAre from "./Bottom/WeAre";
+import WhatPerson from "./Bottom/WhatPerson";
+import WorkEnv from "./Bottom/WorkEnv";
+import Footer from "./Footer/Footer";
+import BoldIndent from "./Top/BoldIndent";
+import HistoryBox from "./Top/HistoryBox";
+import IndentIs from "./Top/IndentIs";
+import Intro from "./Top/Intro";
+import PressBox from "./Top/PressBox";
+import VreviewIs from "./Top/VreviewIs";
 
 const Container = styled.div`
   overflow-x: hidden;
@@ -68,30 +68,30 @@ const Main = () => {
       <DropDown selectedRef={refVal} />
       <TopColor>
         <Border
-          position={'relative'}
-          margin={'0px 0px -5935px 10px'}
-          height={'5935px'}
-          margin360={'0px 0px -6106px 10px'}
-          height360={'6106px'}
-          margin335={'0px 0px -5992px 10px'}
-          height335={'5992px'}
+          position={"relative"}
+          margin={"0px 0px -5725px 10px"}
+          height={"5725px"}
+          margin360={"0px 0px -6106px 10px"}
+          height360={"6106px"}
+          margin335={"0px 0px -5992px 10px"}
+          height335={"5992px"}
         />
         <div ref={menuIndent} />
         <Intro />
         <BoldIndent />
         <Border
-          position={'relative'}
-          margin={'0px 0px -1277px 20px'}
-          height={'1277px'}
-          top={'80px'}
+          position={"relative"}
+          margin={"0px 0px -1219px 20px"}
+          height={"1219px"}
+          top={"80px"}
         />
         <Indentation>
           <IndentIs />
           <Border
-            top={'68px'}
-            position={'relative'}
-            margin={'0px 0px -986px 20px'}
-            height={'986px'}
+            top={"68px"}
+            position={"relative"}
+            margin={"0px 0px -925px 20px"}
+            height={"925px"}
           />
           <div ref={menuVreview} />
           <Indentation>
@@ -99,10 +99,10 @@ const Main = () => {
           </Indentation>
 
           <Border
-            position={'relative'}
-            margin={'0px 0px -408px 30px'}
-            height={'408px'}
-            top={'85px'}
+            position={"relative"}
+            margin={"0px 0px -408px 30px"}
+            height={"408px"}
+            top={"85px"}
           />
           <Indentation>
             <Indentation>
@@ -119,12 +119,12 @@ const Main = () => {
         </Indentation>
         <Indentation>
           <Border
-            top={'25px'}
-            position={'relative'}
-            margin={'0px 0px -852px 20px'}
-            height={'816px'}
+            top={"25px"}
+            position={"relative"}
+            margin={"0px 0px -852px 20px"}
+            height={"816px"}
           />
-          <Indentation style={{ marginTop: '65px' }}>
+          <Indentation style={{ marginTop: "65px" }}>
             <Indentation>
               <Indentation>
                 <WhatPerson />

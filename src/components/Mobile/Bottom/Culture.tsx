@@ -10,8 +10,8 @@ const Culture = () => {
       <TitleBox>[◊ indenter’s culture]</TitleBox>
       <TextBox>
         <Border
-          margin={'0px 0px -3883px 10px'}
-          height={'3883px'}
+          margin={'0px 0px -3680px 10px'}
+          height={'3680px'}
           top={'-4px'}
           margin360={'0px 0px -4003px 10px'}
           height360={'4003px'}
