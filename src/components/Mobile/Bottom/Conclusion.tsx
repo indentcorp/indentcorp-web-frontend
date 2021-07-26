@@ -22,7 +22,7 @@ const Conclusion = () => {
           <br /> 함께할 사람들입니다.
         </TextBox>
       </Indentation>
-      <GlyphBox>¶</GlyphBox>
+      <GlyphBox style={{ marginLeft: "0px" }}>¶</GlyphBox>
     </Container>
   );
 };
@@ -49,7 +49,7 @@ const GlyphBox = styled.p`
   font-size: 13px;
   color: #8e8e8e;
   margin-bottom: 20px;
-  margin-left: 5px;
+  margin-left: 0px;
 `;
 
 const Indentation = styled.div`

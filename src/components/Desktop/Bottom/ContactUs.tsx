@@ -1,10 +1,9 @@
-import React from 'react';
-import styled from 'styled-components';
-import Border from '../../Modules/Border/Border';
-import Highlighter from '../../Modules/Highlighter/Highlighter';
-import WeWork from './WeWork';
-import MapAPI from '../../Modules/Map/MapAPI';
-
+import React from "react";
+import styled from "styled-components";
+import Border from "../../Modules/Border/Border";
+import Highlighter from "../../Modules/Highlighter/Highlighter";
+import MapAPI from "../../Modules/Map/MapAPI";
+import WeWork from "./WeWork";
 
 const ContactUs = () => {
   return (
@@ -12,45 +11,46 @@ const ContactUs = () => {
       <TitleBox>[@ contact us]</TitleBox>
       <WeWork />
       <Border
-        height={'606px'}
-        margin={'60px 0px -601px 0px'}
-        padding={'0px 15px 0px 0px'}
+        height={"606px"}
+        margin={"60px 0px -601px 0px"}
+        padding={"0px 15px 0px 0px"}
       />
       <BorderMargin>
         <TextBox>
           <Highlighter
-            highlightColor={'#E6E6E6'}
-            highlightWidth={'15px'}
-            highlightHeight={'25px'}
-            margin={'0px -8px 0px 0px'}
+            highlightColor={"#E6E6E6"}
+            highlightWidth={"15px"}
+            highlightHeight={"25px"}
+            margin={"0px -8px 0px 0px"}
             zIndex={-1}
-            top={'-2.5px'}
+            top={"-2.5px"}
           />
           contact@indentcorp.com
         </TextBox>
         <TextBox>
           <Highlighter
-            highlightColor={'#E6E6E6'}
-            highlightWidth={'15px'}
-            highlightHeight={'25px'}
-            margin={'0px -8px 0px 0px'}
+            highlightColor={"#E6E6E6"}
+            highlightWidth={"15px"}
+            highlightHeight={"25px"}
+            margin={"0px -8px 0px 0px"}
             zIndex={-1}
-            top={'-2.5px'}
+            top={"-2.5px"}
           />
           +82-2-536-3474
         </TextBox>
         <Border
-          height={'404px'}
-          margin={'60px 0px -404px 0px'}
-          padding={'0px 15px 0px 0px'}
+          height={"404px"}
+          margin={"60px 0px -404px 0px"}
+          padding={"0px 15px 0px 0px"}
         />
         <BorderMargin>
           <MainOffice>Main Office</MainOffice>
           <AddressBox>
-            서울특별시 성동구 성수동2가 269-63,<br />
+            서울특별시 성동구 성수동2가 269-63,
+            <br />
             성수에이원센터 507호
           </AddressBox>
-          <MapAPI />
+          <MapAPI width={"309px"} height={"309px"} />
         </BorderMargin>
       </BorderMargin>
     </Container>
@@ -60,7 +60,7 @@ const ContactUs = () => {
 export default ContactUs;
 
 const Container = styled.div`
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   width: 785px;
   height: 768px;
   padding-top: 89.5px;
@@ -87,7 +87,7 @@ const MainOffice = styled.div`
 `;
 
 const AddressBox = styled.div`
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 15px;
   font-weight: 300;
   color: #585858;
