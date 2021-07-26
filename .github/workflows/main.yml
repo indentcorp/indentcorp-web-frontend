@@ -17,7 +17,7 @@ jobs:
       - name: create env file
         run: |
           touch .env
-          echo REACT_APP_GOOGLE_MAP_KEY =${{ secrets.REACT_APP_GOOGLE_MAP_KEY }} >> .env
+          echo REACT_APP_KAKAO_MAP_KEY =${{ secrets.REACT_APP_KAKAO_MAP_KEY }} >> .env
       - name: Build static site
         run: yarn install && yarn build
       - name: Deploy static site to S3 bucket
