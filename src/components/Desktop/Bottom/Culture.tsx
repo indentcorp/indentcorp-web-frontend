@@ -1,23 +1,27 @@
-import React from 'react';
-import styled from 'styled-components';
-import Highlighter from '../../Modules/Highlighter/Highlighter';
-import Border from '../../Modules/Border/Border';
+import React from "react";
+import styled from "styled-components";
+import Highlighter from "../../Modules/Highlighter/Highlighter";
+import Border from "../../Modules/Border/Border";
 
+const bottomBorder2 = "4317";
 
 const Culture = () => {
   return (
     <Container>
       <TitleBox>[◊ indenter’s culture]</TitleBox>
       <TextBox>
-        <Border margin={'0px 0px -3787px 15px'} height={'3625px'} />
+        <Border
+          margin={`0px 0px -${bottomBorder2}px 15px`}
+          height={`${bottomBorder2}px`}
+        />
         <DetailBox>
           <Highlighter
-            highlightColor={'#DEFFE6'}
-            highlightWidth={'15px'}
-            highlightHeight={'117px'}
-            left={'15px'}
+            highlightColor={"#DEFFE6"}
+            highlightWidth={"15px"}
+            highlightHeight={"117px"}
+            left={"15px"}
             zIndex={-1}
-            margin={'0px 5px 0px 0px'}
+            margin={"0px 5px 0px 0px"}
           />
           <Text>
             <DetailTitle>본질에 집중합니다.</DetailTitle>
@@ -30,11 +34,11 @@ const Culture = () => {
         </DetailBox>
         <DetailBox>
           <Highlighter
-            highlightColor={'#DEFFE6'}
-            highlightWidth={'15px'}
-            highlightHeight={'117px'}
+            highlightColor={"#DEFFE6"}
+            highlightWidth={"15px"}
+            highlightHeight={"117px"}
             zIndex={-1}
-            margin={'0px -10px 0px 0px'}
+            margin={"0px -10px 0px 0px"}
           />
           <Text>
             <DetailTitle>그리고 과감하게 도전합니다.</DetailTitle>
@@ -59,7 +63,7 @@ const Container = styled.div`
 `;
 
 const TitleBox = styled.div`
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 29px;
   font-weight: 500;
   color: #a0a0a0;
@@ -78,7 +82,7 @@ const TextBox = styled.div`
 const DetailBox = styled.div`
   display: flex;
   flex-direction: row;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-weight: 300;
   margin-right: calc(100px - 15px);
 `;

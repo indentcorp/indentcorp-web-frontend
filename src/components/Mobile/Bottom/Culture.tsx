@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Highlighter from '../../Modules/Highlighter/Highlighter';
 import Border from '../../Modules/Border/Border';
 
+const borderLength = '4517'
 
 const Culture = () => {
   return (
@@ -10,8 +11,8 @@ const Culture = () => {
       <TitleBox>[◊ indenter’s culture]</TitleBox>
       <TextBox>
         <Border
-          margin={'0px 0px -3680px 10px'}
-          height={'3680px'}
+          margin={`0px 0px -${borderLength}px 10px`}
+          height={`${borderLength}px`}
           top={'-4px'}
           margin360={'0px 0px -4003px 10px'}
           height360={'4003px'}

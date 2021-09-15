@@ -56,6 +56,8 @@ const Indentation = styled.div`
   margin-left: 15px;
 `;
 
+const outerBorder1 = '6703'
+
 const Main = () => {
   const menuIndent = useRef<HTMLDivElement | null>(null);
   const menuVreview = useRef<HTMLDivElement | null>(null);
@@ -93,8 +95,8 @@ const Main = () => {
         <TopColor>
           <Border
             position={'relative'}
-            margin={'0px 0px -6174px 0px'}
-            height={'6174px'}
+            margin={`0px 0px -${outerBorder1}px 0px`}
+            height={`${outerBorder1}px`}
             float={'left'}
             top={'90px'}
           />

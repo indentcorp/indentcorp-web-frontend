@@ -51,5 +51,5 @@ const GlyphBox = styled.p`
 `;
 
 const Indentation = styled.div`
-  margin-left: 15px;
+  margin-left: 8px;
 `;
