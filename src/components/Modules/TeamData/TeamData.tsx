@@ -34,6 +34,17 @@ const TeamData = {
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/sh2_mod_200k.mp4',
     },
     {
+      id: 'Eunjung',
+      position: 'S/W Engineer',
+      blogLink: null,
+      ghLink: null,
+      gridArea: 'auto',
+      poster:
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/eunjung.jpg',
+      videoSrc:
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/eunjung.mp4',
+    },
+    {
       id: 'Gyunho',
       position: 'Operator',
       blogLink: null,
@@ -45,6 +56,17 @@ const TeamData = {
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/gh_mov_200k.mp4',
     },
     {
+      id: 'Hazel',
+      position: 'S/W Engineer',
+      blogLink: null,
+      ghLink: null,
+      gridArea: 'auto',
+      poster:
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/hazel.jpg',
+      videoSrc:
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/hazel.mp4',
+    },
+    {
       id: 'Hyeonho',
       position: 'Product Manager',
       blogLink: null,
@@ -54,6 +76,39 @@ const TeamData = {
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/khh_200k.jpg',
       videoSrc:
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/khh_200k.mp4',
+    },
+    {
+      id: 'Jacob',
+      position: 'S/W Engineer',
+      blogLink: null,
+      ghLink: null,
+      gridArea: 'auto',
+      poster:
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/jacob.jpg',
+      videoSrc:
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/jacob.mp4',
+    },
+    {
+      id: 'Jaehyun',
+      position: 'S/W Engineer',
+      blogLink: null,
+      ghLink: null,
+      gridArea: 'auto',
+      poster:
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/jaehyun.jpg',
+      videoSrc:
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/jaehyun.mp4',
+    },
+    {
+      id: 'Jeewoo',
+      position: 'S/W Engineer',
+      blogLink: null,
+      ghLink: null,
+      gridArea: 'auto',
+      poster:
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/jeewoo.jpg',
+      videoSrc:
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/jeewoo.mp4',
     },
     {
       id: 'Jen',
@@ -73,9 +128,42 @@ const TeamData = {
       ghLink: null,
       gridArea: 'auto',
       poster:
-        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/ts_still.jpg',
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/morgan.jpg',
       videoSrc:
-        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/ts_mov_200k.mp4',
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/morgan.mp4',
+    },
+    {
+      id: 'Neil',
+      position: 'S/W Engineer',
+      blogLink: null,
+      ghLink: null,
+      gridArea: 'auto',
+      poster:
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/neil.jpg',
+      videoSrc:
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/neil.mp4',
+    },
+    {
+      id: 'Peter',
+      position: 'S/W Engineer',
+      blogLink: null,
+      ghLink: null,
+      gridArea: 'auto',
+      poster:
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/peter.jpg',
+      videoSrc:
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/peter.mp4',
+    },
+    {
+      id: 'Sangwoo',
+      position: 'S/W Engineer',
+      blogLink: null,
+      ghLink: null,
+      gridArea: 'auto',
+      poster:
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/sangwoo.jpg',
+      videoSrc:
+        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/sangwoo.mp4',
     },
     {
       id: 'Tenny',
