@@ -167,7 +167,7 @@ const TeamData = {
     },
     {
       id: 'Tenny',
-      position: 'S/W Engineer',
+      position: 'Product Manager',
       blogLink: null,
       ghLink: 'https://github.com/devtenny',
       gridArea: 'auto',
