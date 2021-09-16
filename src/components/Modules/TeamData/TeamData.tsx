@@ -57,7 +57,7 @@ const TeamData = {
     },
     {
       id: 'Hazel',
-      position: 'S/W Engineer',
+      position: 'Product Manager',
       blogLink: null,
       ghLink: null,
       gridArea: 'auto',
@@ -68,7 +68,7 @@ const TeamData = {
     },
     {
       id: 'Hyeonho',
-      position: 'Product Manager',
+      position: 'People Manager',
       blogLink: null,
       ghLink: null,
       gridArea: 'auto',
@@ -80,8 +80,8 @@ const TeamData = {
     {
       id: 'Jacob',
       position: 'S/W Engineer',
-      blogLink: null,
-      ghLink: null,
+      blogLink: 'http://jacoblee.io/',
+      ghLink: 'http://github.com/jacobjlee',
       gridArea: 'auto',
       poster:
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/jacob.jpg',
@@ -91,8 +91,8 @@ const TeamData = {
     {
       id: 'Jaehyun',
       position: 'S/W Engineer',
-      blogLink: null,
-      ghLink: null,
+      blogLink: 'https://blog.handson.today/',
+      ghLink: 'https://github.com/wesky93',
       gridArea: 'auto',
       poster:
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/jaehyun.jpg',
@@ -101,7 +101,7 @@ const TeamData = {
     },
     {
       id: 'Jeewoo',
-      position: 'S/W Engineer',
+      position: 'Product Designer',
       blogLink: null,
       ghLink: null,
       gridArea: 'auto',
@@ -135,8 +135,8 @@ const TeamData = {
     {
       id: 'Neil',
       position: 'S/W Engineer',
-      blogLink: null,
-      ghLink: null,
+      blogLink: 'http://binaryflavor.com/',
+      ghLink: 'http://github.com/byunjuneseok',
       gridArea: 'auto',
       poster:
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/neil.jpg',
@@ -145,7 +145,7 @@ const TeamData = {
     },
     {
       id: 'Peter',
-      position: 'S/W Engineer',
+      position: 'Product Designer',
       blogLink: null,
       ghLink: null,
       gridArea: 'auto',
@@ -158,7 +158,7 @@ const TeamData = {
       id: 'Sangwoo',
       position: 'S/W Engineer',
       blogLink: null,
-      ghLink: null,
+      ghLink: 'http://github.com/coro101',
       gridArea: 'auto',
       poster:
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/sangwoo.jpg',
