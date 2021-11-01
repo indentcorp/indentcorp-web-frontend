@@ -1,5 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
+import { Press } from "../../../components/Contents/PressHistory";
 
 
 const PressBox = () => {
@@ -8,13 +9,13 @@ const PressBox = () => {
       <Title>(Press)</Title>
       <TextBox>
         <DetailTitle>
-          벤처스퀘어 <DetailDate>2020. 05.</DetailDate>
+          {Press.title}<DetailDate>{Press.date}</DetailDate>
         </DetailTitle>
-        <DetailSentence>구매 전환율 끌어올린 '동영상 후기'의 힘</DetailSentence>
+        <DetailSentence>{Press.text}</DetailSentence>
         <LinkBox
-          target='_blank'
-          rel='noopener noreferrer'
-          href='https://www.notion.so/indent/Press-cae202ba33a346d092fb15c58408d03c'
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.notion.so/indent/Press-cae202ba33a346d092fb15c58408d03c"
         >
           더보기 →
         </LinkBox>
@@ -35,7 +36,7 @@ const Container = styled.div`
   margin-bottom: 47.5px;
   /* width: 325px; */
   height: 180px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
 `;
 
 const Title = styled.span`
@@ -54,7 +55,7 @@ const TextBox = styled.div`
   /* flex-direction: column; */
   /* justify-content: center; */
   background: #efeded;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: #454545;
@@ -85,7 +86,7 @@ const DetailTitle = styled.span`
 `;
 
 const DetailDate = styled.span`
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-size: 12px;
   color: #8e8e8e;
@@ -98,5 +99,6 @@ const DetailSentence = styled.div`
   margin: 10px 0px 20px 0px;
   width: 250px;
   height: 41px;
+  padding-right: 40px;
   /* padding-bottom: 20px; */
 `;

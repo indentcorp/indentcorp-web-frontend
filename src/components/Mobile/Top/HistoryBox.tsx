@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-
+import React from "react";
+import styled from "styled-components";
+import { History } from "../../../components/Contents/PressHistory";
 
 const HistoryBox = () => {
   return (
@@ -8,16 +8,13 @@ const HistoryBox = () => {
       <Title>(History)</Title>
       <TextBox>
         <DetailContainer>
-          <DetailDate>2020.05 2020.04</DetailDate>
-          <DetailText>
-            Facebook Accelerator 선정 <br />
-            브이리뷰 위젯 MAU 3,000만 돌파
-          </DetailText>
+          <DetailDate>{History.date}</DetailDate>
+          <DetailText>{History.text}</DetailText>
         </DetailContainer>
         <LinkBox
-          target='_blank'
-          rel='noopener noreferrer'
-          href='https://www.notion.so/indent/History-866409d11b194eaba4ae872235339b9c'
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.notion.so/indent/History-866409d11b194eaba4ae872235339b9c"
         >
           더보기 →
         </LinkBox>
@@ -30,7 +27,7 @@ export default HistoryBox;
 
 const Container = styled.div`
   padding: 0px 0px 80px 20px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
 `;
 
 const DetailText = styled.span`
@@ -71,7 +68,7 @@ const TextBox = styled.div`
   z-index: 1;
   display: block;
   background: #efeded;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: #454545;
@@ -90,7 +87,7 @@ const LinkBox = styled.a`
 `;
 
 const DetailDate = styled.div`
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-size: 12px;
   color: #8e8e8e;

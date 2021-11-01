@@ -56,7 +56,9 @@ const Indentation = styled.div`
   margin-left: 15px;
 `;
 
-const outerBorder1 = '6703'
+const outerBorder1 = `6465`
+
+export const FrameHeighContext = React.createContext<number>(null)
 
 const Main = () => {
   const menuIndent = useRef<HTMLDivElement | null>(null);

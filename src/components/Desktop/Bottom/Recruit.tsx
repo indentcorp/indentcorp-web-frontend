@@ -41,21 +41,22 @@ const Recruit = () => {
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.notion.so/indent/f7b95ea90fb44f92995c1b6458ed42b1'
+              href='https://www.notion.so/UI-UX-d85c6a060da248a8b1fd33467964862b'
             >
-              Web / Graphic Designer →
+              UI/UX Designer →
             </Link>
           </LinkBox>
         </VerticalDiv>
         <VerticalDiv>
-          <Highlighter
+        <Highlighter
             highlightColor={'#FAF8F8'}
             highlightWidth={'15px'}
-            highlightHeight={'76px'}
+            highlightHeight={'127px'}
             margin={'0px 0px 0px 0px'}
+            left={'7px'}
             zIndex={-1}
           />
-          <LinkBox style={{ width: '320px', left: '-7px' }}>
+          <LinkBox>
             <Link
               target='_blank'
               rel='noopener noreferrer'
@@ -69,6 +70,13 @@ const Recruit = () => {
               href='https://www.notion.so/indent/5c171266cda6435f89992523c8839d2a'
             >
               Data Scientist →
+            </Link>
+            <Link
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://www.notion.so/f7b95ea90fb44f92995c1b6458ed42b1'
+            >
+              Brand/Contents Designer →
             </Link>
           </LinkBox>
         </VerticalDiv>

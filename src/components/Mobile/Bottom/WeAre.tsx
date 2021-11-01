@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import TeamData from '../../Modules/TeamData/TeamData';
+import React from "react";
+import styled from "styled-components";
+import TeamData from "../../Contents/TeamData";
 
 interface Items {
   id: string;
@@ -12,7 +12,7 @@ interface Items {
   videoSrc?: string | undefined;
 }
 
-declare module 'react' {
+declare module "react" {
   interface HTMLAttributes<T> {
     id?: string;
     class?: string;
@@ -31,42 +31,42 @@ const Frame = ({ TeamData }) => {
         <FrameBox gridArea={item.gridArea}>
           <MediaBox>
             <video
-              className='videoInsert'
+              className="videoInsert"
               muted
               control
-              preload='metadata'
+              preload="metadata"
               playsInline
               poster={item.poster}
               onClick={(event: any) => event.currentTarget.play()}
               src={item.videoSrc}
-              type='video/mp4'
+              type="video/mp4"
             ></video>
           </MediaBox>
           <NameBox>{item.id}</NameBox>
           <PositionBox>{item.position}</PositionBox>
           {item.blogLink ? (
             <LinkBox
-              target='_blank'
-              rel='noopener noreferrer'
+              target="_blank"
+              rel="noopener noreferrer"
               href={item.blogLink}
-              style={{ paddingRight: '10px' }}
+              style={{ paddingRight: "10px" }}
             >
               Blog
             </LinkBox>
           ) : (
-              <LinkBox />
-            )}
+            <LinkBox />
+          )}
           {item.ghLink ? (
             <LinkBox
-              target='_blank'
-              rel='noopener noreferrer'
+              target="_blank"
+              rel="noopener noreferrer"
               href={item.ghLink}
             >
               Github
             </LinkBox>
           ) : (
-              <LinkBox />
-            )}
+            <LinkBox />
+          )}
         </FrameBox>
       ))}
     </>
@@ -86,7 +86,7 @@ const WeAre = () => {
 export default WeAre;
 
 const Container = styled.div`
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   display: flex;
   flex-direction: column;
   padding-bottom: px;

@@ -33,7 +33,7 @@ const Indentation = styled.div`
   margin-left: 10px;
 `;
 
-const borderLength = '6561'
+const borderLength = '6173'
 
 const Main = () => {
   const menuIndent = useRef<HTMLDivElement | null>(null);

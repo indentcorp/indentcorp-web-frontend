@@ -4,5 +4,10 @@
   "rules": {
     "prettier": true,
     "interface-name": false
-  }
+  },
+  "linterOptions": {
+    "exclude": [
+        "src/serviceWorker.ts"
+    ]
+}
 }

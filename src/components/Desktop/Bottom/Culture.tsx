@@ -3,7 +3,8 @@ import styled from "styled-components";
 import Highlighter from "../../Modules/Highlighter/Highlighter";
 import Border from "../../Modules/Border/Border";
 
-const bottomBorder2 = "4317";
+// const tempVal = `${929/2}`
+const bottomBorder2 = `4079`;
 
 const Culture = () => {
   return (

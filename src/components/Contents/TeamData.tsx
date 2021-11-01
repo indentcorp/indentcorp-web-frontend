@@ -34,17 +34,6 @@ const TeamData = {
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/sh2_mod_200k.mp4',
     },
     {
-      id: 'Eunjung',
-      position: 'S/W Engineer',
-      blogLink: null,
-      ghLink: null,
-      gridArea: 'auto',
-      poster:
-        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/eunjung.jpg',
-      videoSrc:
-        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/eunjung.mp4',
-    },
-    {
       id: 'Gyunho',
       position: 'Operator',
       blogLink: null,
@@ -100,17 +89,6 @@ const TeamData = {
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/jaehyun.mp4',
     },
     {
-      id: 'Jeewoo',
-      position: 'Product Designer',
-      blogLink: null,
-      ghLink: null,
-      gridArea: 'auto',
-      poster:
-        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/jeewoo.jpg',
-      videoSrc:
-        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/jeewoo.mp4',
-    },
-    {
       id: 'Jen',
       position: 'CX Designer',
       blogLink: null,
@@ -142,17 +120,6 @@ const TeamData = {
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/neil.jpg',
       videoSrc:
         'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/neil.mp4',
-    },
-    {
-      id: 'Peter',
-      position: 'Product Designer',
-      blogLink: null,
-      ghLink: null,
-      gridArea: 'auto',
-      poster:
-        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/peter.jpg',
-      videoSrc:
-        'https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/peter.mp4',
     },
     {
       id: 'Sangwoo',

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Highlighter from '../../Modules/Highlighter/Highlighter';
 import Border from '../../Modules/Border/Border';
 
-const borderLength = '4517'
+const borderLength = '4132'
 
 const Culture = () => {
   return (
