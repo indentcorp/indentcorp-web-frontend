@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
-import Border from '../../Modules/Border/Border';
-import Highlighter from '../../Modules/Highlighter/Highlighter';
+import React from "react";
+import styled from "styled-components";
+import Border from "../../Modules/Border/Border";
+import Highlighter from "../../Modules/Highlighter/Highlighter";
 
 const Recruit = () => {
   return (
@@ -10,65 +10,80 @@ const Recruit = () => {
       <TextBox>
         <LinkSection>
           <Border
-            top={'8px'}
-            right={'10px'}
-            height={'178px'}
-            margin={'0px 0px -62px 0px'}
+            top={"8px"}
+            right={"10px"}
+            height={"192px"}
+            margin={"0px 0px -85px 0px"}
           />
           <Highlighter
-            top={'8px'}
-            highlightColor={'#FAF8F8'}
-            highlightWidth={'10px'}
-            highlightHeight={'79px'}
-            margin={'0px 0px 0px 0px'}
+            top={"8px"}
+            highlightColor={"#FAF8F8"}
+            highlightWidth={"10px"}
+            highlightHeight={"79px"}
+            margin={"0px 0px 0px 0px"}
             zIndex={-1}
           />
           <LinkBox>
             <Link
-              target='_blank'
-              rel='noopener noreferrer'
-              href='https://www.notion.so/indent/ffc3c0e523ff4c6894f5ceaaed53fdec'
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.notion.so/indent/ffc3c0e523ff4c6894f5ceaaed53fdec"
             >
               Frontend Engineer →
             </Link>
             <Link
-              target='_blank'
-              rel='noopener noreferrer'
-              href='https://www.notion.so/indent/5903e879540f4f09a890b7532d48b802'
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.notion.so/indent/5903e879540f4f09a890b7532d48b802"
             >
               Backend Engineer →
             </Link>
             <Link
-              target='_blank'
-              rel='noopener noreferrer'
-              href='https://www.notion.so/indent/f7b95ea90fb44f92995c1b6458ed42b1'
-              style={{ paddingBottom: '45px' }}
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.notion.so/UI-UX-d85c6a060da248a8b1fd33467964862b"
             >
-              Web / Graphic Designer →
+              UI/UX Designer →
             </Link>
           </LinkBox>
         </LinkSection>
         <LinkSection>
           <Highlighter
+            top={"8px"}
+            highlightColor={"#FAF8F8"}
+            highlightWidth={"10px"}
+            highlightHeight={"79px"}
+            margin={"0px 0px 0px 0px"}
+            zIndex={-1}
+          />
+          {/* hightlighter for 2 lines */}
+          {/* <Highlighter
             top={'7px'}
             highlightColor={'#FAF8F8'}
             highlightWidth={'10px'}
             highlightHeight={'49px'}
             margin={'0px 0px 0px 0px'}
             zIndex={-1}
-          />
+          /> */}
           <LinkBox>
             <Link
-              target='_blank'
-              rel='noopener noreferrer'
-              href='https://www.notion.so/indent/0452e9f2428d43f798cd59e716e1898f'
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.notion.so/f7b95ea90fb44f92995c1b6458ed42b1"
+            >
+              Brand/Contents Designer →
+            </Link>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.notion.so/indent/0452e9f2428d43f798cd59e716e1898f"
             >
               Data Engineer →
             </Link>
             <Link
-              target='_blank'
-              rel='noopener noreferrer'
-              href='https://www.notion.so/indent/5c171266cda6435f89992523c8839d2a'
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.notion.so/indent/5c171266cda6435f89992523c8839d2a"
             >
               Data Scientist →
             </Link>
@@ -79,15 +94,13 @@ const Recruit = () => {
   );
 };
 
-
 export default Recruit;
-
 
 const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   margin-top: 58.5px;
   height: 358px;
 `;
