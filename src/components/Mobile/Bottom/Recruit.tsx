@@ -72,16 +72,8 @@ const Recruit = () => {
             <Link
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.notion.so/f7b95ea90fb44f92995c1b6458ed42b1"
-              className='data-engineer'
-            >
-              Brand/Contents Designer →
-            </Link>
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
               href="https://www.notion.so/indent/0452e9f2428d43f798cd59e716e1898f"
-              className='data-scientist'
+              className='data-engineer'
             >
               Data Engineer →
             </Link>
@@ -89,9 +81,17 @@ const Recruit = () => {
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.notion.so/indent/5c171266cda6435f89992523c8839d2a"
-              className='brand-contents-designer'
+              className='data-scientist'
             >
               Data Scientist →
+            </Link>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.notion.so/f7b95ea90fb44f92995c1b6458ed42b1"
+              className='brand-contents-designer'
+            >
+              Brand/Contents Designer →
             </Link>
           </LinkBox>
         </LinkSection>
