@@ -4,7 +4,7 @@ import { Press } from "../../../components/Contents/PressHistory";
 
 const PressBox = () => {
   return (
-    <Container>
+    <Container className='press'>
       <Title>(Press)</Title>
       <TextBox>
         <DetailTitle>
