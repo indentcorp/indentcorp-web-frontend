@@ -1,88 +1,122 @@
-import React from 'react';
-import styled from 'styled-components';
-import Highlighter from '../../Modules/Highlighter/Highlighter';
-import Border from '../../Modules/Border/Border';
+import React from "react";
+import styled from "styled-components";
+import Highlighter from "../../Modules/Highlighter/Highlighter";
+import Border from "../../Modules/Border/Border";
 
+const notionLink = {
+  frontendEngineer:
+    "https://www.notion.so/indent/ffc3c0e523ff4c6894f5ceaaed53fdec",
+  backendEnginner:
+    "https://www.notion.so/indent/5903e879540f4f09a890b7532d48b802",
+  productDesigner:
+    "https://www.notion.so/indent/d85c6a060da248a8b1fd33467964862b",
+  brandContentsDesigner:
+    "https://www.notion.so/indent/f7b95ea90fb44f92995c1b6458ed42b1",
+  salesOperationManager:
+    "https://www.notion.so/indent/d77c166f8a16470b8c205a5f158c2812",
+  B2BSalesManager:
+    "https://www.notion.so/indent/B2B-c6236a9c357f4b49a1727033feab3a56",
+  CSOperator:
+    "https://www.notion.so/indent/CS-beb19bfb9fb4475882f95698152cb097",
+  B2BMarketer:
+    "https://www.notion.so/indent/B2B-d06c0c1b212d4153a0932bccd2b15c9c",
+};
 
 const Recruit = () => {
   return (
     <Container>
       <TitleBox>[+ recruit]</TitleBox>
-      <TextBox className='recruit-links'>
+      <TextBox className="recruit-links">
         <VerticalDiv>
           <Border
-            margin={'0px 0px 0px 0px'}
-            height={'127px'}
-            padding={'0px 7px 0px 0px'}
+            margin={"0px 0px 0px 0px"}
+            height={"175px"}
+            padding={"0px 7px 0px 0px"}
           />
           <Highlighter
-            highlightColor={'#FAF8F8'}
-            highlightWidth={'15px'}
-            highlightHeight={'127px'}
-            margin={'0px 0px 0px 0px'}
-            left={'7px'}
+            highlightColor={"#FAF8F8"}
+            highlightWidth={"15px"}
+            highlightHeight={"175px"}
+            margin={"0px 0px 0px 0px"}
+            left={"7px"}
             zIndex={-1}
           />
           <LinkBox>
             <Link
-              target='_blank'
-              rel='noopener noreferrer'
-              href='https://www.notion.so/indent/ffc3c0e523ff4c6894f5ceaaed53fdec'
-              className='frontend-engineer'
+              target="_blank"
+              rel="noopener noreferrer"
+              href={notionLink.frontendEngineer}
+              className="frontend-engineer"
             >
               Frontend Engineer →
             </Link>
             <Link
-              target='_blank'
-              rel='noopener noreferrer'
-              href='https://www.notion.so/indent/5903e879540f4f09a890b7532d48b802'
-              className='backend-engineer'
+              target="_blank"
+              rel="noopener noreferrer"
+              href={notionLink.backendEnginner}
+              className="backend-engineer"
             >
               Backend Engineer →
             </Link>
             <Link
-              target='_blank'
-              rel='noopener noreferrer'
-              href='https://www.notion.so/UI-UX-d85c6a060da248a8b1fd33467964862b'
-              className='ui-ux-designer'
+              target="_blank"
+              rel="noopener noreferrer"
+              href={notionLink.productDesigner}
+              className="ui-ux-designer"
             >
-              UI/UX Designer →
+              Product Designer →
+            </Link>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href={notionLink.brandContentsDesigner}
+              className="data-engineer"
+            >
+              Brand/Contents Designer →
             </Link>
           </LinkBox>
         </VerticalDiv>
         <VerticalDiv>
-        <Highlighter
-            highlightColor={'#FAF8F8'}
-            highlightWidth={'15px'}
-            highlightHeight={'127px'}
-            margin={'0px 0px 0px 0px'}
-            left={'7px'}
+          <Highlighter
+            highlightColor={"#FAF8F8"}
+            highlightWidth={"15px"}
+            highlightHeight={"175px"}
+            margin={"0px 0px 0px 0px"}
+            left={"7px"}
             zIndex={-1}
           />
           <LinkBox>
             <Link
-              target='_blank'
-              rel='noopener noreferrer'
-              href='https://www.notion.so/indent/0452e9f2428d43f798cd59e716e1898f'
-              className='data-engineer'
+              target="_blank"
+              rel="noopener noreferrer"
+              href={notionLink.salesOperationManager}
+              className="data-scientist"
             >
-              Data Engineer →
+              Sales Operation Manager →
             </Link>
             <Link
-              target='_blank'
-              rel='noopener noreferrer'
-              href='https://www.notion.so/indent/5c171266cda6435f89992523c8839d2a'
-              className='data-scientist'
+              target="_blank"
+              rel="noopener noreferrer"
+              href={notionLink.B2BSalesManager}
+              className="brand-contents-designer"
             >
-              Data Scientist →
+              B2B Sales Manager →
             </Link>
             <Link
-              target='_blank'
-              rel='noopener noreferrer'
-              href='https://www.notion.so/f7b95ea90fb44f92995c1b6458ed42b1'
-              className='brand-contents-designer'
+              target="_blank"
+              rel="noopener noreferrer"
+              href={notionLink.CSOperator}
+              className="brand-contents-designer"
             >
-              Brand/Contents Designer →
+              CS Operator →
+            </Link>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href={notionLink.B2BMarketer}
+              className="brand-contents-designer"
+            >
+              B2B Marketer →
             </Link>
           </LinkBox>
         </VerticalDiv>
@@ -96,7 +130,7 @@ export default Recruit;
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   width: 919px;
   height: 406px;
 `;
@@ -126,7 +160,7 @@ const VerticalDiv = styled.div`
   display: flex;
   flex-direction: row;
   width: 300px;
-  height: 124px;
+  height: 180px;
   position: relative;
   margin-right: 85px;
 `;

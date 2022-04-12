@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick-theme.css';
-import 'slick-carousel/slick/slick.css';
-import styled from 'styled-components';
-
+import React, { Component } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import styled from "styled-components";
 
 const WhatPerson = () => {
   return (
@@ -17,11 +16,11 @@ const WhatPerson = () => {
 export default WhatPerson;
 // May modulize this below
 
-//importing svg didn't work, i had to hard code the svg
+// importing svg didn't work, i had to hard code the svg
 const CarouselStyle = styled(Slider)`
   width: 100%;
   .slick-prev::before {
-    font-family: 'IBM Plex Mono SemiBold', monospace;
+    font-family: "IBM Plex Mono SemiBold", monospace;
     font-size: 100px;
     color: #afffd4;
   }
@@ -44,12 +43,12 @@ const CarouselStyle = styled(Slider)`
 `;
 
 const ArrowSettings = {
-  display: 'flex',
-  width: '41px',
-  height: '128px',
-  top: '163px',
-  right: '62px',
-  'z-index': '10px',
+  display: "flex",
+  width: "41px",
+  height: "128px",
+  top: "163px",
+  right: "62px",
+  "z-index": "10px",
 };
 
 function NextArrow(props: any) {
@@ -182,21 +181,21 @@ const FourthPane = () => {
 };
 
 const Container = styled.div`
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   display: flex;
   flex-direction: column;
   line-height: 22px;
 `;
 
 const TitleBox = styled.span`
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   color: #8e8e8e;
   font-size: 18px;
   margin-bottom: 15px;
 `;
 
 const PaneSection = styled.div`
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   padding-left: 60px;
   padding-top: 35px;
   clear: both;
@@ -206,7 +205,7 @@ const PaneSection = styled.div`
 `;
 
 const PageNum = styled.span`
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 700;
   font-size: 12px;
   color: #a0a0a0;
@@ -216,7 +215,7 @@ const PageNum = styled.span`
 
 const PaneTitle = styled.p`
   position: relative;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   color: #454545;
   font-weight: 300;
   font-size: 18px;
@@ -224,6 +223,7 @@ const PaneTitle = styled.p`
 `;
 
 const PaneContent = styled.p`
+  height: 330px;
   position: relative;
   font-size: 13px;
   top: 30px;
