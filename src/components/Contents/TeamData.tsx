@@ -78,17 +78,6 @@ const TeamData = {
         "https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/jaehyun.mp4",
     },
     {
-      id: "Jen",
-      position: "CX Designer",
-      blogLink: null,
-      ghLink: null,
-      gridArea: "auto",
-      poster:
-        "https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/images/jy_mov_200k.jpg",
-      videoSrc:
-        "https://d2avi8not6hrpt.cloudfront.net/indentcorp.com/videos/180/jy_mov_200k.mp4",
-    },
-    {
       id: "Morgan",
       position: "CEO",
       blogLink: null,
